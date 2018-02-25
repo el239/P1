@@ -6,7 +6,6 @@ public class gibbsSampler{
 public static int lineCount = 0;
 public static int l = 0;
 public static int k;
-//public static String[] cleanInput;
 public static String input;
 
 public static void main(String args[]){
@@ -18,31 +17,45 @@ public static void main(String args[]){
 	   long totalTime = endTime - startTime;
 	   System.out.println(totalTime+ " nanoseconds");
 	   */
+//	   randMotif("afdjkdsdf",4);
+	   sampler("10by100.FASTA", 4, 10, 100);
 
-       String input = "";
-	   File text = new File("10by100.FASTA"); // file must be present in same directory or given with specified file path
+//	   consensus(text);
+} // end main
+
+   public static void sampler(String DNA, int k, int l, int N) {
+	   
+   File text = new File(DNA); // file must be present in same directory or given with specified file path
+	   String[] sequences = new String[10];
 	   try {
 	      Scanner s = new Scanner(text);
 		  while(s.hasNextLine()) {
 			 lineCount ++;
 			 input = s.nextLine();
-			// System.out.println(input); 
+			 if(lineCount % 2 == 0){
+			 sequences[lineCount/2 - 1] = input;
+			 } // end if
 		  } // end while
-	   l = lineCount/2;
-
+//       System.out.println(sequences[1]); test
 	   } // end try
 	   catch (FileNotFoundException e) {
 		e.printStackTrace();
 	   } // end catch	   
+   } // end sampler
 
-	   consensus(text);
-} // end main
-
-   public static String randMotif(String sequence) {
-	   int start = (int)(Math.random() * (sequence.length() - k)); // find random element between 0 and near String end to begin
-	   return sequence.substring(start,start + k); // creates random motif of k elements
+   public static String randMotif(String sequence, int motifLength) {
+	   int start = (int)(Math.random() * (sequence.length() - motifLength + 1)); // find random element between 0 and near String end to begin
+	   System.out.println(start);
+	   System.out.println(sequence.substring(0,motifLength));
+	   System.out.println(sequence.substring(start,start + motifLength));
+	   return sequence.substring(start,start + motifLength); // creates random motif of k elements
    } // end randMotif
 
+   
+   
+  
+   
+   
    public static void consensus(File fastaInput){
 	   String[] cleanInput = new String[l];
 	   int i = 0;
