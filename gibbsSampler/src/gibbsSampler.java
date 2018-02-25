@@ -1,11 +1,14 @@
 import java.io.*;
 import java.util.Scanner;
+import java.util.*;
 
 public class gibbsSampler{
 
 public static int lineCount = 0;
-public static int l = 0;
-public static int k;
+public static int sequenceNumber;
+public static int motifLength;
+public static int sequenceLength;
+
 public static String input;
 
 public static void main(String args[]){
@@ -18,15 +21,20 @@ public static void main(String args[]){
 	   System.out.println(totalTime+ " nanoseconds");
 	   */
 //	   randMotif("afdjkdsdf",4);
-	   sampler("10by100.FASTA", 4, 10, 100);
+	   sampler("10by100.FASTA", 3, 10, 100);
 
 //	   consensus(text);
 } // end main
 
-   public static void sampler(String DNA, int k, int l, int N) {
+   public static void sampler(String DNA, int k, int t, int N) {
+	   sequenceNumber = t;
+	   motifLength = k;
+	   sequenceLength = N;
+   
 	   
    File text = new File(DNA); // file must be present in same directory or given with specified file path
-	   String[] sequences = new String[10];
+	   String[] sequences = new String[t];
+	   String[] motifs = new String[t];
 	   try {
 	      Scanner s = new Scanner(text);
 		  while(s.hasNextLine()) {
@@ -36,18 +44,84 @@ public static void main(String args[]){
 			 sequences[lineCount/2 - 1] = input;
 			 } // end if
 		  } // end while
+	
 //       System.out.println(sequences[1]); test
+		  
 	   } // end try
 	   catch (FileNotFoundException e) {
 		e.printStackTrace();
 	   } // end catch	   
+	   
+	   int i;
+	   for (i = 0; i < t; i++) {
+		   motifs[i] = randMotif(sequences[i]);
+		   System.out.println(randMotif(sequences[i]));
+	   } // end for
+	   
+	   motifCount(motifs);
+//	   System.out.println(motifCount(motifs));
+	   
    } // end sampler
+   
+   public static int[][] motifCount(String[] theMotifs){
+	   int i;
+	   int j;
+	   int aCount = 0;
+	   int cCount = 0;
+	   int gCount = 0;
+	   int tCount = 0;
+	   int [][] theMotifCount = new int[4][motifLength];
+	   String letter = new String("");
+	   for (i = 0; i < motifLength; i++) {
+		   for (j = 0; j < sequenceNumber; j++) {
+			   char base = theMotifs[j].charAt(i);
+			   letter = ("");
+			   letter += base;
+			   switch (letter){
+			   case "a":
+				   aCount++;
+				   break;
+			   case "c":
+				   cCount++;
+				   break;
+			   case "g":
+				   gCount++;
+				   break;
+			   case "t":
+				   tCount++;
+				   break;
+			   default:
+				   System.out.println("Invalid base letter in motif");
+				   break;
+			   } // end switch
+			   
+		   theMotifCount[0][i] = aCount;
+		   theMotifCount[1][i] = cCount; 
+		   theMotifCount[2][i] = gCount;
+		   theMotifCount[3][i] = tCount;	
+		   aCount = 0;
+		   cCount = 0;	
+		   gCount = 0;
+		   tCount = 0;
+		   } // end for
+	   } // end for
+	   System.out.println(theMotifCount[3][1]);
+	   for (int[] motifLength : theMotifCount){
+		    System.out.println(Arrays.toString(motifLength));
+	   } // end for
+	   
+	   return theMotifCount;
+   } // end motifCount
 
-   public static String randMotif(String sequence, int motifLength) {
+   public static String randMotif(String sequence) {
 	   int start = (int)(Math.random() * (sequence.length() - motifLength + 1)); // find random element between 0 and near String end to begin
+	   
+	   /*
 	   System.out.println(start);
-	   System.out.println(sequence.substring(0,motifLength));
 	   System.out.println(sequence.substring(start,start + motifLength));
+	   debug messages
+	   */ 
+	   
 	   return sequence.substring(start,start + motifLength); // creates random motif of k elements
    } // end randMotif
 
@@ -55,9 +129,9 @@ public static void main(String args[]){
    
   
    
-   
+/*   
    public static void consensus(File fastaInput){
-	   String[] cleanInput = new String[l];
+
 	   int i = 0;
 	   try {
 	   Scanner s = new Scanner(fastaInput);
@@ -76,9 +150,8 @@ public static void main(String args[]){
 		e.printStackTrace();
 	   } // end catch	   	   
 	   
-//   return cleanInput[];
    } // end consensus
-
+*/
 } // end class
 
 
