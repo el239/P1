@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.Scanner;
 import java.util.*;
 
+
 public class gibbsSampler{
 
 public static int lineCount = 0;
@@ -44,8 +45,6 @@ public static void main(String args[]){
 			 sequences[lineCount/2 - 1] = input;
 			 } // end if
 		  } // end while
-	
-//       System.out.println(sequences[1]); test
 		  
 	   } // end try
 	   catch (FileNotFoundException e) {
@@ -55,13 +54,22 @@ public static void main(String args[]){
 	   int i;
 	   for (i = 0; i < t; i++) {
 		   motifs[i] = randMotif(sequences[i]);
-		   System.out.println(randMotif(sequences[i]));
+		   System.out.println(motifs[i]);
 	   } // end for
 	   
+	   arraySlice(motifs);
 	   motifCount(motifs);
-//	   System.out.println(motifCount(motifs));
 	   
    } // end sampler
+   
+   public static String[] arraySlice(String[] allMotifs){
+	   int rand = (int)(Math.random() * (allMotifs.length - 1));
+	   String[] oneLess = new String[sequenceNumber - 1];
+	   for ()
+//	   System.arraycopy(allMotifs, 0, oneLessllMotifs.length - 1 - rand);
+	   System.out.println("motif of sequence: " + rand + " removed.");
+	   return allMotifs;
+   } // end stringSlice
    
    public static int[][] motifCount(String[] theMotifs){
 	   int i;
@@ -94,7 +102,8 @@ public static void main(String args[]){
 				   System.out.println("Invalid base letter in motif");
 				   break;
 			   } // end switch
-			   
+		   } // end for
+
 		   theMotifCount[0][i] = aCount;
 		   theMotifCount[1][i] = cCount; 
 		   theMotifCount[2][i] = gCount;
@@ -102,10 +111,9 @@ public static void main(String args[]){
 		   aCount = 0;
 		   cCount = 0;	
 		   gCount = 0;
-		   tCount = 0;
-		   } // end for
+		   tCount = 0;		   
 	   } // end for
-	   System.out.println(theMotifCount[3][1]);
+
 	   for (int[] motifLength : theMotifCount){
 		    System.out.println(Arrays.toString(motifLength));
 	   } // end for
@@ -115,12 +123,6 @@ public static void main(String args[]){
 
    public static String randMotif(String sequence) {
 	   int start = (int)(Math.random() * (sequence.length() - motifLength + 1)); // find random element between 0 and near String end to begin
-	   
-	   /*
-	   System.out.println(start);
-	   System.out.println(sequence.substring(start,start + motifLength));
-	   debug messages
-	   */ 
 	   
 	   return sequence.substring(start,start + motifLength); // creates random motif of k elements
    } // end randMotif
