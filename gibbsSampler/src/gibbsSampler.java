@@ -75,7 +75,23 @@ public static void main(String args[]){
 	   char[] consensusMotif = new char[motifLength];
 	   consensusMotif = consensusCalc(motifCount(motifs)); // fills the consensus char array with the most frequent base
 
+	   System.out.println("\nHamming distance score is: " + hammingCalc(motifs, consensusMotif));
    } // end sampler
+   
+   public static int hammingCalc(String[] theMotifs, char[] theConsensusMotif){
+	   int i;
+	   int j;
+	   int hammingScore = 0;
+	   for (i = 0; i < sequenceNumber; i++){ // iterates though elements in OUTSIDE loop
+		   for (j = 0; j < motifLength; j++){ // iterates through Strings in INSIDE loop
+			   if (theMotifs[i].charAt(j) != theConsensusMotif[j]){ // tallies for every mismatch
+				   hammingScore++;
+			   } // end if
+		   } // end for
+   	   } // end for
+	   return hammingScore;
+   } // end hammingCalc
+   
    public static char[] consensusCalc(int[][] theMotifs) {
 	   int i;
 	   char[] theConsensusMotif = new char[motifLength]; 
