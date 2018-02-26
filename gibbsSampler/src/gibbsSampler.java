@@ -69,7 +69,26 @@ public static void main(String args[]){
 	   deletedSequence = sequences[rand]; // instantiates sequence deleted from beginning of run
 	   probabilities = probCalc(profileMatrix); // checks all possible k-mers in deleted strand to make probabilities
 	   probabilities = dieMaker(probabilities); // adds a multiplier and overwrites the array so that the sum of elements equals 1
+	   dieRoller(probabilities);
    } // end sampler
+   
+   public static int dieRoller(float[] theProbabilities) {
+	   float runningSum = 0;
+	   int i;
+	   float rand = (float)Math.random();
+	   System.out.println("\nRANDOM NUMBER IS: " + rand);
+	   for (i = 0; i < theProbabilities.length; i++){
+		   runningSum += theProbabilities[i]; // sequentially adds up values to create an array of increasing floats
+		   if (rand <= runningSum){
+			   System.out.println("Running sum: " + runningSum);
+			   System.out.println("element: " + i);
+			   System.out.println(theProbabilities[i]);
+			   return i;
+		   } // end if
+	   } // end for
+	   System.out.println("Error selecting motif from deleted sequence (dieRoller function");
+	   return -1;
+   } // end theProbabilities
    
    public static float[] dieMaker(float[] theProbabilities) {
 	   int i;
