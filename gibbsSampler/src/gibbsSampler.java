@@ -9,7 +9,6 @@ public static int lineCount = 0;
 public static int sequenceNumber;
 public static int motifLength;
 public static int sequenceLength;
-
 public static String input;
 
 public static void main(String args[]){
@@ -32,13 +31,12 @@ public static void main(String args[]){
 	   motifLength = k;
 	   sequenceLength = N;
    
-	   
    File text = new File(DNA); // file must be present in same directory or given with specified file path
 	   String[] sequences = new String[t];
 	   String[] motifs = new String[t];
 	   try {
 	      Scanner s = new Scanner(text);
-		  while(s.hasNextLine()) {
+		  while(s.hasNextLine()) { // cleans FASTA input and generates sequence array
 			 lineCount ++;
 			 input = s.nextLine();
 			 if(lineCount % 2 == 0){
@@ -52,23 +50,52 @@ public static void main(String args[]){
 	   } // end catch	   
 	   
 	   int i;
-	   for (i = 0; i < t; i++) {
+	   for (i = 0; i < t; i++) { // creates random motifs of size k
 		   motifs[i] = randMotif(sequences[i]);
 		   System.out.println(motifs[i]);
 	   } // end for
 	   
-	   arraySlice(motifs);
-	   motifCount(motifs);
+	   String[] motifsAfterRemoval = new String[sequenceNumber - 1]; // new string with memory allocated for once motif less
+	   motifsAfterRemoval = arraySlice(motifs); // removes random motif from array
+	   
+	   /* debug messages
+	   int length = motifsAfterRemoval.length;
+	   System.out.println(length);
+
+	   System.out.println(motifs[0]);
+	   System.out.println(motifs[1]);
+	   System.out.println(motifs[2]);
+	   System.out.println(motifs[3]);
+	   System.out.println(motifs[4]);
+	   System.out.println(motifs[5]);
+	   System.out.println(motifs[6]);
+	   System.out.println(motifs[7]);
+	   System.out.println(motifs[8]);
+	   System.out.println(motifs[9]);
+	   System.out.println(motifs[10]);
+	   System.out.println(motifs.length);
+	   */
+
+	   motifCount(motifsAfterRemoval); // makes motif count from spliced array
 	   
    } // end sampler
    
-   public static String[] arraySlice(String[] allMotifs){
+   public static String[] arraySlice(String[] allMotifs){ // cuts out a random element motif
+	   int i;
+	   int j = 0;
 	   int rand = (int)(Math.random() * (allMotifs.length - 1));
-	   String[] oneLess = new String[sequenceNumber - 1];
-	   for ()
-//	   System.arraycopy(allMotifs, 0, oneLessllMotifs.length - 1 - rand);
-	   System.out.println("motif of sequence: " + rand + " removed.");
-	   return allMotifs;
+	   String[] oneLess = new String[sequenceNumber - 1]; // creates string with memory allocated for 1 less motif
+	   System.out.println("spliced motif: ");
+	   for (i = 0; i < rand; i++){ // fills new array with portion before splice 
+		   oneLess[i] = allMotifs[i];
+		   System.out.println(oneLess[i]);
+	   } // end for
+	   for (j = i; j < oneLess.length; j++) { // fills new array with portion after splice
+		   oneLess[j] = allMotifs[j + 1];
+		   System.out.println(oneLess[j]);
+	   } // end for
+	   System.out.println("motif of sequence corresponding to element #" + rand + " removed.");
+	   return oneLess;
    } // end stringSlice
    
    public static int[][] motifCount(String[] theMotifs){
@@ -81,7 +108,7 @@ public static void main(String args[]){
 	   int [][] theMotifCount = new int[4][motifLength];
 	   String letter = new String("");
 	   for (i = 0; i < motifLength; i++) {
-		   for (j = 0; j < sequenceNumber; j++) {
+		   for (j = 0; j < theMotifs.length; j++) {
 			   char base = theMotifs[j].charAt(i);
 			   letter = ("");
 			   letter += base;
@@ -123,7 +150,6 @@ public static void main(String args[]){
 
    public static String randMotif(String sequence) {
 	   int start = (int)(Math.random() * (sequence.length() - motifLength + 1)); // find random element between 0 and near String end to begin
-	   
 	   return sequence.substring(start,start + motifLength); // creates random motif of k elements
    } // end randMotif
 
