@@ -2,7 +2,6 @@ import java.io.*;
 import java.util.Scanner;
 import java.util.*;
 
-
 public class gibbsSampler{
 
 public static int lineCount = 0;
@@ -59,7 +58,7 @@ public static void main(String args[]){
 	   
 	   String[] motifsAfterRemoval = new String[sequenceNumber - 1]; // new string with memory allocated for once motif less
 	   motifsAfterRemoval = arraySlice(motifs); // removes random motif from array
-	   
+
 	   int[][] countMatrix = new int[4][motifsAfterRemoval.length]; // creates two-dimensional array to hold count
 	   countMatrix = motifCount(motifsAfterRemoval); // makes motif count from spliced array
 	   countMatrix = pseudoCount(countMatrix); // overwrites count with pseudocount
@@ -69,20 +68,50 @@ public static void main(String args[]){
 	   deletedSequence = sequences[rand]; // instantiates sequence deleted from beginning of run
 	   probabilities = probCalc(profileMatrix); // checks all possible k-mers in deleted strand to make probabilities
 	   probabilities = dieMaker(probabilities); // adds a multiplier and overwrites the array so that the sum of elements equals 1
-	   dieRoller(probabilities);
+	   int newMotifStartElement = dieRoller(probabilities);
+	   motifs[rand] = deletedSequence.substring(newMotifStartElement, newMotifStartElement + motifLength); // sets motif of delete sequence to die result
+	   System.out.println("the new motif for the deleted sequence is: " + motifs[rand]);
+	   
+	   char[] consensusMotif = new char[motifLength];
+	   consensusMotif = consensusCalc(motifCount(motifs)); // fills the consensus char array with the most frequent base
+
    } // end sampler
+   public static char[] consensusCalc(int[][] theMotifs) {
+	   int i;
+	   char[] theConsensusMotif = new char[motifLength]; 
+	   System.out.println("Consensus sequence: ");
+	   for (i = 0; i < motifLength; i++){ // iterates though elements in OUTSIDE loop
+		   
+		   int max = theMotifs[0][i]; // sets default "winner" base for consensus formation 
+		   theConsensusMotif[i] = 'a'; // bias towards a<-c<-g<-t, but to no significant effect overal
+		   if (theMotifs[1][i] > max) {
+			   max = theMotifs[1][i]; // overwrites 'a' if there is a base with a higher tally
+			   theConsensusMotif[i] = 'c'; 
+			   } // end if
+		   if (theMotifs[2][i] > max) {
+			   max = theMotifs[2][i]; // overwrites 'a' if there is a base with a higher tally
+			   theConsensusMotif[i] = 'g'; 
+			   } // end if
+		   if (theMotifs[3][i] > max) {
+			   max = theMotifs[3][i]; // overwrites 'a' if there is a base with a higher tally
+			   theConsensusMotif[i] = 't'; 
+			   } // end if
+		   System.out.print(theConsensusMotif[i]);
+		   max = 0;
+		   } // end for
+	   return theConsensusMotif;
+   } // end consensus Calc
    
    public static int dieRoller(float[] theProbabilities) {
 	   float runningSum = 0;
 	   int i;
-	   float rand = (float)Math.random();
-	   System.out.println("\nRANDOM NUMBER IS: " + rand);
+	   float random = (float)Math.random();
+	   System.out.println("\nRANDOM NUMBER IS: " + random);
 	   for (i = 0; i < theProbabilities.length; i++){
 		   runningSum += theProbabilities[i]; // sequentially adds up values to create an array of increasing floats
-		   if (rand <= runningSum){
+		   if (random <= runningSum){
 			   System.out.println("Running sum: " + runningSum);
 			   System.out.println("element: " + i);
-			   System.out.println(theProbabilities[i]);
 			   return i;
 		   } // end if
 	   } // end for
@@ -206,7 +235,7 @@ public static void main(String args[]){
    public static String[] arraySlice(String[] allMotifs){ // cuts out a random element motif
 	   int i;
 	   int j = 0;
-	   int rand = (int)(Math.random() * (allMotifs.length - 1));
+	   rand = (int)(Math.random() * allMotifs.length - 1);
 	   String[] oneLess = new String[sequenceNumber - 1]; // creates string with memory allocated for 1 less motif
 	   System.out.println("Motif of sequence corresponding to element #" + rand + " removed.");
 	   System.out.println("Motifs after splice: ");
