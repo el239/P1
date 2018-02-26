@@ -9,7 +9,9 @@ public static int lineCount = 0;
 public static int sequenceNumber;
 public static int motifLength;
 public static int sequenceLength;
+public static int rand;
 public static String input;
+public static String deletedSequence;
 
 public static void main(String args[]){
 	
@@ -63,7 +65,47 @@ public static void main(String args[]){
 	   countMatrix = pseudoCount(countMatrix); // overwrites count with pseudocount
 	   float[][] profileMatrix = new float[4][motifsAfterRemoval.length];
 	   profileMatrix = profileCalc(countMatrix);
+	   float[] probabilities = new float[sequenceLength - motifLength + 1]; // an element for each possible k-mer
+	   deletedSequence = sequences[rand];
+	   probabilities = probCalc(profileMatrix);
+	   
    } // end sampler
+   
+   public static float[] probCalc(float[][] theProfileMatrix){
+	   float[] theProbabilities = new float[sequenceLength - motifLength + 1];
+	   int i;
+	   int j;
+	   int p;
+	   float kmerProbability = 1;
+	   float baseChance = 0;
+	   String kmer = new String("");
+	   for (p = 0; p < sequenceLength-motifLength + 1; p++){ // increments through k-size "slices" of deleted sequence 
+			kmer = deletedSequence.substring(p, motifLength + p);
+			for (i = 0; i < 3; i++) {
+				if (kmer.charAt(i)=='a') {
+					baseChance = theProfileMatrix[0][i];
+				}
+				else if (kmer.charAt(i)=='c') {
+					baseChance = theProfileMatrix[1][i];
+				}
+				else if (kmer.charAt(i)=='g'){
+					baseChance = theProfileMatrix[2][i];
+				}
+				else if (kmer.charAt(i)=='t') {
+					baseChance = theProfileMatrix[3][i];
+				}
+				else {
+					System.out.println("Error encountered fetching probabilities"); // debug safety
+				} // end else
+				kmerProbability *= baseChance;
+				baseChance = 0;
+			} // end for
+			theProbabilities[p] = kmerProbability;
+			System.out.print(theProbabilities[p] + "  ");
+			kmerProbability = 1;
+	   } // end for 
+	   return theProbabilities;
+   } // end probCalc
    
    public static float[][] profileCalc(int[][] theCountMatrix){
 	   int i;
@@ -219,13 +261,4 @@ public static void main(String args[]){
 	   return sequence.substring(start,start + motifLength); // creates random motif of k elements
    } // end randMotif
 
-   
-   
-  
-   
-/*   
-   public static void consensus(File fastaInput){
-
-   } // end consensus
-*/
 } // end class
