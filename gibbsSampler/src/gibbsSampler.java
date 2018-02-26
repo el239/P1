@@ -58,34 +58,49 @@ public static void main(String args[]){
 	   String[] motifsAfterRemoval = new String[sequenceNumber - 1]; // new string with memory allocated for once motif less
 	   motifsAfterRemoval = arraySlice(motifs); // removes random motif from array
 	   
-	   /* debug messages
-	   int length = motifsAfterRemoval.length;
-	   System.out.println(length);
-
-	   System.out.println(motifs[0]);
-	   System.out.println(motifs[1]);
-	   System.out.println(motifs[2]);
-	   System.out.println(motifs[3]);
-	   System.out.println(motifs[4]);
-	   System.out.println(motifs[5]);
-	   System.out.println(motifs[6]);
-	   System.out.println(motifs[7]);
-	   System.out.println(motifs[8]);
-	   System.out.println(motifs[9]);
-	   System.out.println(motifs[10]);
-	   System.out.println(motifs.length);
-	   */
-
-	   motifCount(motifsAfterRemoval); // makes motif count from spliced array
-	   
+	   int[][] countMatrix = new int[4][motifsAfterRemoval.length]; // creates two-dimensional array to hold count
+	   countMatrix = motifCount(motifsAfterRemoval); // makes motif count from spliced array
+	   countMatrix = pseudoCount(countMatrix); // overwrites count with pseudocount
    } // end sampler
+   
+   public static int[][] pseudoCount(int[][] theCountMatrix){
+	   int i;
+	   int j;
+	   int x = 0;
+	   for (i = 0; i < 4; i++){ // iterates though elements in OUTSIDE loop
+		   for (j = 0; j < motifLength; j++) { // iterates through Strings in INSIDE loop
+			   theCountMatrix[i][j] = theCountMatrix[i][j] + 1; // adds 1 to every count
+		   } // end for
+	   } // end for
+	   System.out.println("pseudocount: ");
+	   for (int[] motifLength : theCountMatrix){ // nice matrix print
+		    switch (x){ // format print
+		    case 0:
+		    	System.out.print("a: ");
+		    	break;
+		    case 1:
+		    	System.out.print("c: ");
+		    	break;
+		    case 2:
+		    	System.out.print("g: ");
+		    	break;
+		    case 3:
+		    	System.out.print("t: ");
+		    	break;
+		    } // end switch
+		    System.out.println(Arrays.toString(motifLength));
+		    x++;
+	   }// end for
+	   return theCountMatrix;
+   } // end pseudoCount
    
    public static String[] arraySlice(String[] allMotifs){ // cuts out a random element motif
 	   int i;
 	   int j = 0;
 	   int rand = (int)(Math.random() * (allMotifs.length - 1));
 	   String[] oneLess = new String[sequenceNumber - 1]; // creates string with memory allocated for 1 less motif
-	   System.out.println("spliced motif: ");
+	   System.out.println("Motif of sequence corresponding to element #" + rand + " removed.");
+	   System.out.println("Motifs after splice: ");
 	   for (i = 0; i < rand; i++){ // fills new array with portion before splice 
 		   oneLess[i] = allMotifs[i];
 		   System.out.println(oneLess[i]);
@@ -94,25 +109,25 @@ public static void main(String args[]){
 		   oneLess[j] = allMotifs[j + 1];
 		   System.out.println(oneLess[j]);
 	   } // end for
-	   System.out.println("motif of sequence corresponding to element #" + rand + " removed.");
 	   return oneLess;
    } // end stringSlice
    
    public static int[][] motifCount(String[] theMotifs){
 	   int i;
 	   int j;
+	   int x = 0;
 	   int aCount = 0;
 	   int cCount = 0;
 	   int gCount = 0;
 	   int tCount = 0;
 	   int [][] theMotifCount = new int[4][motifLength];
 	   String letter = new String("");
-	   for (i = 0; i < motifLength; i++) {
-		   for (j = 0; j < theMotifs.length; j++) {
+	   for (i = 0; i < motifLength; i++){ // iterates though elements in OUTSIDE loop
+		   for (j = 0; j < theMotifs.length; j++) { // iterates through Strings in INSIDE loop
 			   char base = theMotifs[j].charAt(i);
 			   letter = ("");
 			   letter += base;
-			   switch (letter){
+			   switch (letter){ // tallies nucleotides at each motif position 
 			   case "a":
 				   aCount++;
 				   break;
@@ -126,23 +141,40 @@ public static void main(String args[]){
 				   tCount++;
 				   break;
 			   default:
-				   System.out.println("Invalid base letter in motif");
+				   System.out.println("Invalid base letter in motif"); // shouldn't occur unless there is an unrecognized letter
 				   break;
 			   } // end switch
 		   } // end for
-
+		   
+		   // fills two-dimensional array with counts
 		   theMotifCount[0][i] = aCount;
 		   theMotifCount[1][i] = cCount; 
 		   theMotifCount[2][i] = gCount;
 		   theMotifCount[3][i] = tCount;	
+		   // resets counts for next element position
 		   aCount = 0;
 		   cCount = 0;	
 		   gCount = 0;
 		   tCount = 0;		   
 	   } // end for
-
-	   for (int[] motifLength : theMotifCount){
+       System.out.println("count: ");
+	   for (int[] motifLength : theMotifCount){ // nice matrix print
+		    switch (x){ // format print
+		    case 0:
+		    	System.out.print("a: ");
+		    	break;
+		    case 1:
+		    	System.out.print("c: ");
+		    	break;
+		    case 2:
+		    	System.out.print("g: ");
+		    	break;
+		    case 3:
+		    	System.out.print("t: ");
+		    	break;
+		    } // end switch
 		    System.out.println(Arrays.toString(motifLength));
+		    x++;
 	   } // end for
 	   
 	   return theMotifCount;
@@ -160,115 +192,6 @@ public static void main(String args[]){
 /*   
    public static void consensus(File fastaInput){
 
-	   int i = 0;
-	   try {
-	   Scanner s = new Scanner(fastaInput);
-		  while(s.hasNextLine()) {
-			 lineCount ++;
-			 input = s.nextLine();
-			 if (lineCount % 2 == 0) {
-				 System.out.println(lineCount);
-				 cleanInput[i] = input;
-				 i++;
-			 } // end if
-			 System.out.println(cleanInput[0]);
-		  } // end while	
-	   } // end try
-	   catch (FileNotFoundException e) {
-		e.printStackTrace();
-	   } // end catch	   	   
-	   
    } // end consensus
 */
 } // end class
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*	
-public static String mostfrequent(String text, int k){ 
-
-count = 0;
-String word, block = null, mostWord = new String("");
-String finalWord = new String("");
-
-if (k > text.length() || k <= 0) // precondition violated
-	throw new IllegalArgumentException("Sequence length must be an integer between 1 and text length");
-
-for (int p = 0; p < text.length()-k+1; p++){ // increments through k number of "slices" of first k-size sequence 
-	word = text.substring(p,k+p); // takes sequence as a template
-	int innerCount = 0;
-	
-	for (int i = 0; i < text.length()-k+1; i++){
-       block = text.substring(i,i+k); // chops text in chunks of size k
-       if (block.equals(word)){
-    	   
-    	   innerCount ++; // increments when "word" finds matches, min. value 1 for when word and block coincide
-    	   i += k-1; // VERY IMPORTANT- skips to end of block, i.e., prevents "aaaa" being counted as 3 instances when k=2
-           
-    	   if (innerCount > count){  
-               count = innerCount; // writes over count when a higher frequency sequence is encountered
-               mostWord = block; // writes over the the most frequent "word"
-               if (finalWord.length() == 0 && count > 1){ // sets initial final word
-            	   finalWord = mostWord;
-               } // end if
-           } // end if
-    		
-    	    // checks for repeats in "finalWord" before appending
-    		if (innerCount == count && innerCount > 1 && !block.equals(finalWord.substring(finalWord.length()-k, finalWord.length()))){
-    		   int j;
-    		   int appendCount = 0; // marks repeats
-    		   for (j = 0; j < finalWord.length()/k; j++) {
-    			   if (block.equals(finalWord.substring(j*k,j*k+k))) { // checks for repeats in final word
-    				   appendCount++;
-    		       } // end if
-    		   } // end for
-    		   
-    			   if (appendCount == 0){
-    	 	       finalWord += block; // appends tie cases, if not already in "finalWord"
-    			   } // end if
-    		       appendCount = 0;
-   		    } // end if   
-       } // end if
-	} // end for 
-	
-innerCount = 0; // resets match counter
-    
-} // end for
-
-if (count == 1) // case for no-repeat sequences
-	return ("The sequence has no repeat elements.\n");
-
-if (finalWord.length() == k) {
-	System.out.print("The highest frequency sequence is " + "\"" + finalWord + "\"" + ", occurring " + count + " times." + "\n");
-    return "";
-    } // end if
-else {
-	System.out.print("The highest frequency sequences are ");
-	for (int i = 0; i < finalWord.length()/k - 1; i++){ // print formatting
-	   System.out.print("\"" + finalWord.substring(i*k,i*k+k) + "\"" + ", ");
-	} // end for
-	
-	if (finalWord.length()/k > 2){ // "each"
-	   System.out.print("and " + "\"" + finalWord.substring(finalWord.length()-k,finalWord.length()) + "\"" + ", each occurring " + count + " times." + "\n");
-	return(""); 
-	} // end if 
-	
-	else // "both"
-	   System.out.print("and " + "\"" + finalWord.substring(finalWord.length()-k,finalWord.length()) + "\"" + ", both occurring " + count + " times." + "\n");
-	return("");
-} // end else
-} // end mostfrequent
-*/
-
-
-
