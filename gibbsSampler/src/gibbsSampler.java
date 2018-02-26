@@ -66,10 +66,24 @@ public static void main(String args[]){
 	   float[][] profileMatrix = new float[4][motifsAfterRemoval.length];
 	   profileMatrix = profileCalc(countMatrix);
 	   float[] probabilities = new float[sequenceLength - motifLength + 1]; // an element for each possible k-mer
-	   deletedSequence = sequences[rand];
-	   probabilities = probCalc(profileMatrix);
-	   
+	   deletedSequence = sequences[rand]; // instantiates sequence deleted from beginning of run
+	   probabilities = probCalc(profileMatrix); // checks all possible k-mers in deleted strand to make probabilities
+	   probabilities = dieMaker(probabilities); // adds a multiplier and overwrites the array so that the sum of elements equals 1
    } // end sampler
+   
+   public static float[] dieMaker(float[] theProbabilities) {
+	   int i;
+	   float sum = 0;
+	   System.out.println("THE PROBABILITIES");
+	   for(i = 0; i < theProbabilities.length; i++){
+		   sum += theProbabilities[i]; // gets sum of all probabilities to make denominator with
+	   } // end for
+	   for(i = 0; i < theProbabilities.length; i++){
+		   theProbabilities[i] = theProbabilities[i] / sum;
+		   System.out.print(theProbabilities[i] + "  ");
+	   } // end for
+	   return theProbabilities;
+   } // end dieMaker
    
    public static float[] probCalc(float[][] theProfileMatrix){
 	   float[] theProbabilities = new float[sequenceLength - motifLength + 1];
