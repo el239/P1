@@ -61,17 +61,51 @@ public static void main(String args[]){
 	   int[][] countMatrix = new int[4][motifsAfterRemoval.length]; // creates two-dimensional array to hold count
 	   countMatrix = motifCount(motifsAfterRemoval); // makes motif count from spliced array
 	   countMatrix = pseudoCount(countMatrix); // overwrites count with pseudocount
+	   float[][] profileMatrix = new float[4][motifsAfterRemoval.length];
+	   profileMatrix = profileCalc(countMatrix);
    } // end sampler
    
+   public static float[][] profileCalc(int[][] theCountMatrix){
+	   int i;
+	   int j;
+	   int x = 0;
+	   float[][] theProfileMatrix = new float[4][motifLength];
+	   for (i = 0; i < 4; i++){ // iterates though elements in OUTSIDE loop
+		   for (j = 0; j < motifLength; j++){ // iterates through Strings in INSIDE loop
+			   theProfileMatrix[i][j] = (float)theCountMatrix[i][j]/ (sequenceNumber - 1 + 4); // adjusts denominator
+		   } // end for
+   	   } // end for
+	   System.out.println("profile: ");
+	   for (float[] motifLength : theProfileMatrix){ // nice matrix print
+		    switch (x){ // format print
+		    case 0:
+		    	System.out.print("a: ");
+		    	break;
+		    case 1:
+		    	System.out.print("c: ");
+		    	break;
+		    case 2:
+		    	System.out.print("g: ");
+		    	break;
+		    case 3:
+		    	System.out.print("t: ");
+		    	break;
+		    } // end switch
+		    System.out.println(Arrays.toString(motifLength));
+		    x++;
+	   }// end for
+	   return theProfileMatrix;
+   } // end profileCalc
+
    public static int[][] pseudoCount(int[][] theCountMatrix){
 	   int i;
 	   int j;
 	   int x = 0;
 	   for (i = 0; i < 4; i++){ // iterates though elements in OUTSIDE loop
-		   for (j = 0; j < motifLength; j++) { // iterates through Strings in INSIDE loop
-			   theCountMatrix[i][j] = theCountMatrix[i][j] + 1; // adds 1 to every count
+		   for (j = 0; j < motifLength; j++){ // iterates through Strings in INSIDE loop
+			   theCountMatrix[i][j] = (theCountMatrix[i][j] + 1); // adds 1 to every count, divides by 8
 		   } // end for
-	   } // end for
+   	   } // end for
 	   System.out.println("pseudocount: ");
 	   for (int[] motifLength : theCountMatrix){ // nice matrix print
 		    switch (x){ // format print
