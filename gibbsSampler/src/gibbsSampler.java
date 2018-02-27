@@ -61,10 +61,13 @@ public static void main(String args[]){
 
 	   int[][] countMatrix = new int[4][motifsAfterRemoval.length]; // creates two-dimensional array to hold count
 	   countMatrix = motifCount(motifsAfterRemoval); // makes motif count from spliced array
-	   countMatrix = pseudoCount(countMatrix); // overwrites count with pseudocount
+	   int[][] pseudoCountMatrix = new int[4][motifsAfterRemoval.length];
+	   pseudoCountMatrix = pseudoCount(countMatrix); // overwrites count with pseudocount
+	   
 	   float[][] profileMatrix = new float[4][motifsAfterRemoval.length];
-	   profileMatrix = profileCalc(countMatrix);
+	   profileMatrix = profileCalc(pseudoCountMatrix);
 	   float[] probabilities = new float[sequenceLength - motifLength + 1]; // an element for each possible k-mer
+	   
 	   deletedSequence = sequences[rand]; // instantiates sequence deleted from beginning of run
 	   probabilities = probCalc(profileMatrix); // checks all possible k-mers in deleted strand to make probabilities
 	   probabilities = dieMaker(probabilities); // adds a multiplier and overwrites the array so that the sum of elements equals 1
@@ -74,9 +77,41 @@ public static void main(String args[]){
 	   
 	   char[] consensusMotif = new char[motifLength];
 	   consensusMotif = consensusCalc(motifCount(motifs)); // fills the consensus char array with the most frequent base
-
 	   System.out.println("\nHamming distance score is: " + hammingCalc(motifs, consensusMotif));
+	   
+	   int[][] fullCountMatrix = new int[4][motifsAfterRemoval.length]; // creates two-dimensional array to hold count
+	   fullCountMatrix = motifCount(motifs); // makes motif count from spliced array
+	   
+	   double entrophyScore;
+	   entrophyScore = entrophyCalc(fullCountMatrix);
+	   System.out.println(entrophyScore);
    } // end sampler
+   
+   public static double entrophyCalc(int[][] theCountMatrix){ // similar to profileCalc, but with unmodified denominator (all motifs, no pseudo count)
+	   int i;
+	   int j;
+	   float[][] theProfileMatrix = new float[4][motifLength];
+	   double theEntrophy = 0;
+	   double columnEntrophy = 0;
+	   double theProbability;
+	   for (i = 0; i < motifLength; i++){ // iterates though elements in OUTSIDE loop
+		   for (j = 0; j < 4; j++){ // iterates through Strings in INSIDE loop
+			   theProbability = (double)theCountMatrix[j][i]/((double)sequenceNumber);
+			   theEntrophy += -1 * (((double)theCountMatrix[j][i])/(double)sequenceNumber)*log2(theProbability);
+			   columnEntrophy += -1 * (((double)theCountMatrix[j][i])/(double)sequenceNumber)*log2(theProbability);
+			   System.out.println("The probability is: " + theProbability);
+			   System.out.println("the log2 of prob is: " + (((double)theCountMatrix[j][i])/(double)sequenceNumber)*log2(theProbability));
+		   } // end for
+		   
+		   System.out.println("The column entrophy is: " + columnEntrophy + "\n");
+		   columnEntrophy = 0;
+   	   } // end for
+	   return theEntrophy;
+   } // end entrophyCalc
+   
+   public static double log2(double number){
+	   return (Math.log(number)/Math.log(2));
+   } // end log2
    
    public static int hammingCalc(String[] theMotifs, char[] theConsensusMotif){
 	   int i;
@@ -223,7 +258,7 @@ public static void main(String args[]){
 	   int x = 0;
 	   for (i = 0; i < 4; i++){ // iterates though elements in OUTSIDE loop
 		   for (j = 0; j < motifLength; j++){ // iterates through Strings in INSIDE loop
-			   theCountMatrix[i][j] = (theCountMatrix[i][j] + 1); // adds 1 to every count, divides by 8
+			   theCountMatrix[i][j] = (theCountMatrix[i][j] + 1); // adds 1 to every count
 		   } // end for
    	   } // end for
 	   System.out.println("pseudocount: ");
