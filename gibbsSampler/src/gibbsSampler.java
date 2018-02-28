@@ -11,6 +11,8 @@ public static int sequenceLength;
 public static int rand;
 public static String input;
 public static String deletedSequence;
+public static String[] sequences;
+public static String[] motifs;
 
 public static void main(String args[]){
 	
@@ -21,10 +23,10 @@ public static void main(String args[]){
 	   long totalTime = endTime - startTime;
 	   System.out.println(totalTime+ " nanoseconds");
 	   */
-//	   randMotif("afdjkdsdf",4);
+	
 	   sampler("10by100.FASTA", 3, 10, 100);
+	   recursiveNarrow();
 
-//	   consensus(text);
 } // end main
 
    public static void sampler(String DNA, int k, int t, int N) {
@@ -33,8 +35,8 @@ public static void main(String args[]){
 	   sequenceLength = N;
    
    File text = new File(DNA); // file must be present in same directory or given with specified file path
-	   String[] sequences = new String[t];
-	   String[] motifs = new String[t];
+	   sequences = new String[t];
+	   motifs = new String[t];
 	   try {
 	      Scanner s = new Scanner(text);
 		  while(s.hasNextLine()) { // cleans FASTA input and generates sequence array
@@ -53,8 +55,13 @@ public static void main(String args[]){
 	   int i;
 	   for (i = 0; i < t; i++) { // creates random motifs of size k
 		   motifs[i] = randMotif(sequences[i]);
-		   System.out.println(motifs[i]);
+//		   System.out.println(motifs[i]);
 	   } // end for
+   } // end sampler
+   
+	   // recursion needs to start here
+	   
+	   public static void recursiveNarrow(){
 	   
 	   String[] motifsAfterRemoval = new String[sequenceNumber - 1]; // new string with memory allocated for once motif less
 	   motifsAfterRemoval = arraySlice(motifs); // removes random motif from array
@@ -73,38 +80,44 @@ public static void main(String args[]){
 	   probabilities = dieMaker(probabilities); // adds a multiplier and overwrites the array so that the sum of elements equals 1
 	   int newMotifStartElement = dieRoller(probabilities);
 	   motifs[rand] = deletedSequence.substring(newMotifStartElement, newMotifStartElement + motifLength); // sets motif of delete sequence to die result
-	   System.out.println("the new motif for the deleted sequence is: " + motifs[rand]);
+//	   System.out.println("the new motif for the deleted sequence is: " + motifs[rand]);
 	   
 	   char[] consensusMotif = new char[motifLength];
 	   consensusMotif = consensusCalc(motifCount(motifs)); // fills the consensus char array with the most frequent base
-	   System.out.println("\nHamming distance score is: " + hammingCalc(motifs, consensusMotif));
+//	   System.out.println("\nHamming distance score is: " + 
+	   hammingCalc(motifs, consensusMotif);
 	   
 	   int[][] fullCountMatrix = new int[4][motifsAfterRemoval.length]; // creates two-dimensional array to hold count
-	   fullCountMatrix = motifCount(motifs); // makes motif count from spliced array
+	   fullCountMatrix = motifCount(motifs); // makes motif count from unspliced array
 	   
 	   double entrophyScore;
 	   entrophyScore = entrophyCalc(fullCountMatrix);
 	   System.out.println(entrophyScore);
+	   
+	   // end recursion case
+
    } // end sampler
    
    public static double entrophyCalc(int[][] theCountMatrix){ // similar to profileCalc, but with unmodified denominator (all motifs, no pseudo count)
 	   int i;
 	   int j;
-	   float[][] theProfileMatrix = new float[4][motifLength];
 	   double theEntrophy = 0;
-	   double columnEntrophy = 0;
+//	   double columnEntrophy = 0;
 	   double theProbability;
 	   for (i = 0; i < motifLength; i++){ // iterates though elements in OUTSIDE loop
 		   for (j = 0; j < 4; j++){ // iterates through Strings in INSIDE loop
 			   theProbability = (double)theCountMatrix[j][i]/((double)sequenceNumber);
-			   theEntrophy += -1 * (((double)theCountMatrix[j][i])/(double)sequenceNumber)*log2(theProbability);
-			   columnEntrophy += -1 * (((double)theCountMatrix[j][i])/(double)sequenceNumber)*log2(theProbability);
-			   System.out.println("The probability is: " + theProbability);
-			   System.out.println("the log2 of prob is: " + (((double)theCountMatrix[j][i])/(double)sequenceNumber)*log2(theProbability));
+			   if(theProbability != 0){
+				   theEntrophy += -1 * (((double)theCountMatrix[j][i])/(double)sequenceNumber)*log2(theProbability);
+			   } // end if
+			   
+//			   columnEntrophy += -1 * (((double)theCountMatrix[j][i])/(double)sequenceNumber)*log2(theProbability);
+//			   System.out.println("The probability is: " + theProbability);
+//			   System.out.println("the log2 of prob is: " + (((double)theCountMatrix[j][i])/(double)sequenceNumber)*log2(theProbability));
 		   } // end for
 		   
-		   System.out.println("The column entrophy is: " + columnEntrophy + "\n");
-		   columnEntrophy = 0;
+//		   System.out.println("The column entrophy is: " + columnEntrophy + "\n");
+//		   columnEntrophy = 0;
    	   } // end for
 	   return theEntrophy;
    } // end entrophyCalc
@@ -130,11 +143,11 @@ public static void main(String args[]){
    public static char[] consensusCalc(int[][] theMotifs) {
 	   int i;
 	   char[] theConsensusMotif = new char[motifLength]; 
-	   System.out.println("Consensus sequence: ");
+//	   System.out.println("Consensus sequence: ");
 	   for (i = 0; i < motifLength; i++){ // iterates though elements in OUTSIDE loop
 		   
 		   int max = theMotifs[0][i]; // sets default "winner" base for consensus formation 
-		   theConsensusMotif[i] = 'a'; // bias towards a<-c<-g<-t, but to no significant effect overal
+		   theConsensusMotif[i] = 'a'; // bias towards a<-c<-g<-t, but to no significant effect overall
 		   if (theMotifs[1][i] > max) {
 			   max = theMotifs[1][i]; // overwrites 'a' if there is a base with a higher tally
 			   theConsensusMotif[i] = 'c'; 
@@ -147,7 +160,7 @@ public static void main(String args[]){
 			   max = theMotifs[3][i]; // overwrites 'a' if there is a base with a higher tally
 			   theConsensusMotif[i] = 't'; 
 			   } // end if
-		   System.out.print(theConsensusMotif[i]);
+//		   System.out.print(theConsensusMotif[i]);
 		   max = 0;
 		   } // end for
 	   return theConsensusMotif;
@@ -157,12 +170,12 @@ public static void main(String args[]){
 	   float runningSum = 0;
 	   int i;
 	   float random = (float)Math.random();
-	   System.out.println("\nRANDOM NUMBER IS: " + random);
+//	   System.out.println("\nRANDOM NUMBER IS: " + random);
 	   for (i = 0; i < theProbabilities.length; i++){
 		   runningSum += theProbabilities[i]; // sequentially adds up values to create an array of increasing floats
 		   if (random <= runningSum){
-			   System.out.println("Running sum: " + runningSum);
-			   System.out.println("element: " + i);
+//			   System.out.println("Running sum: " + runningSum);
+//			   System.out.println("element: " + i);
 			   return i;
 		   } // end if
 	   } // end for
@@ -173,13 +186,13 @@ public static void main(String args[]){
    public static float[] dieMaker(float[] theProbabilities) {
 	   int i;
 	   float sum = 0;
-	   System.out.println("THE PROBABILITIES");
+//	   System.out.println("THE PROBABILITIES");
 	   for(i = 0; i < theProbabilities.length; i++){
 		   sum += theProbabilities[i]; // gets sum of all probabilities to make denominator with
 	   } // end for
 	   for(i = 0; i < theProbabilities.length; i++){
 		   theProbabilities[i] = theProbabilities[i] / sum;
-		   System.out.print(theProbabilities[i] + "  ");
+//		   System.out.print(theProbabilities[i] + "  ");
 	   } // end for
 	   return theProbabilities;
    } // end dieMaker
@@ -214,7 +227,7 @@ public static void main(String args[]){
 				baseChance = 0;
 			} // end for
 			theProbabilities[p] = kmerProbability;
-			System.out.print(theProbabilities[p] + "  ");
+//			System.out.print(theProbabilities[p] + "  ");
 			kmerProbability = 1;
 	   } // end for 
 	   return theProbabilities;
@@ -230,23 +243,23 @@ public static void main(String args[]){
 			   theProfileMatrix[i][j] = (float)theCountMatrix[i][j]/ (sequenceNumber - 1 + 4); // adjusts denominator
 		   } // end for
    	   } // end for
-	   System.out.println("profile: ");
+//	   System.out.println("profile: ");
 	   for (float[] motifLength : theProfileMatrix){ // nice matrix print
 		    switch (x){ // format print
 		    case 0:
-		    	System.out.print("a: ");
+//		    	System.out.print("a: ");
 		    	break;
 		    case 1:
-		    	System.out.print("c: ");
+//		    	System.out.print("c: ");
 		    	break;
 		    case 2:
-		    	System.out.print("g: ");
+//		    	System.out.print("g: ");
 		    	break;
 		    case 3:
-		    	System.out.print("t: ");
+//		    	System.out.print("t: ");
 		    	break;
 		    } // end switch
-		    System.out.println(Arrays.toString(motifLength));
+//		    System.out.println(Arrays.toString(motifLength));
 		    x++;
 	   }// end for
 	   return theProfileMatrix;
@@ -261,23 +274,23 @@ public static void main(String args[]){
 			   theCountMatrix[i][j] = (theCountMatrix[i][j] + 1); // adds 1 to every count
 		   } // end for
    	   } // end for
-	   System.out.println("pseudocount: ");
+//	   System.out.println("pseudocount: ");
 	   for (int[] motifLength : theCountMatrix){ // nice matrix print
 		    switch (x){ // format print
 		    case 0:
-		    	System.out.print("a: ");
+//		    	System.out.print("a: ");
 		    	break;
 		    case 1:
-		    	System.out.print("c: ");
+//		    	System.out.print("c: ");
 		    	break;
 		    case 2:
-		    	System.out.print("g: ");
+//		    	System.out.print("g: ");
 		    	break;
 		    case 3:
-		    	System.out.print("t: ");
+//		    	System.out.print("t: ");
 		    	break;
 		    } // end switch
-		    System.out.println(Arrays.toString(motifLength));
+//		    System.out.println(Arrays.toString(motifLength));
 		    x++;
 	   }// end for
 	   return theCountMatrix;
@@ -288,15 +301,15 @@ public static void main(String args[]){
 	   int j = 0;
 	   rand = (int)(Math.random() * allMotifs.length - 1);
 	   String[] oneLess = new String[sequenceNumber - 1]; // creates string with memory allocated for 1 less motif
-	   System.out.println("Motif of sequence corresponding to element #" + rand + " removed.");
-	   System.out.println("Motifs after splice: ");
+//	   System.out.println("Motif of sequence corresponding to element #" + rand + " removed.");
+//	   System.out.println("Motifs after splice: ");
 	   for (i = 0; i < rand; i++){ // fills new array with portion before splice 
 		   oneLess[i] = allMotifs[i];
-		   System.out.println(oneLess[i]);
+//		   System.out.println(oneLess[i]);
 	   } // end for
 	   for (j = i; j < oneLess.length; j++) { // fills new array with portion after splice
 		   oneLess[j] = allMotifs[j + 1];
-		   System.out.println(oneLess[j]);
+//		   System.out.println(oneLess[j]);
 	   } // end for
 	   return oneLess;
    } // end stringSlice
@@ -346,23 +359,23 @@ public static void main(String args[]){
 		   gCount = 0;
 		   tCount = 0;		   
 	   } // end for
-       System.out.println("count: ");
+//       System.out.println("count: ");
 	   for (int[] motifLength : theMotifCount){ // nice matrix print
 		    switch (x){ // format print
 		    case 0:
-		    	System.out.print("a: ");
+//		    	System.out.print("a: ");
 		    	break;
 		    case 1:
-		    	System.out.print("c: ");
+//		    	System.out.print("c: ");
 		    	break;
 		    case 2:
-		    	System.out.print("g: ");
+//		    	System.out.print("g: ");
 		    	break;
 		    case 3:
-		    	System.out.print("t: ");
+//		    	System.out.print("t: ");
 		    	break;
 		    } // end switch
-		    System.out.println(Arrays.toString(motifLength));
+//		    System.out.println(Arrays.toString(motifLength));
 		    x++;
 	   } // end for
 	   
