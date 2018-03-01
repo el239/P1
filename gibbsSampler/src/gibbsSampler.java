@@ -32,9 +32,29 @@ public static void main(String args[]){
 	   System.out.println(totalTime+ " nanoseconds");
 	   */
 	   
-	   sampler("5by10.FASTA", 4, 5, 100);
+	   // ("filename", k-mer length, number of sequences, number of cycles)
+	
+	   sampler("5by10.FASTA", 4, 5, 10000); // test case 1, no mutations from inputed atgt motif
+       if (bestConsensusMotif[0] == 'a' && 
+    	   bestConsensusMotif[1] == 't' &&
+    	   bestConsensusMotif[2] == 'g' &&
+    	   bestConsensusMotif[3] == 't'){
+    	   System.out.println("success: implanted motif found");
+       } // end if
+       else System.out.println("failure: implanted motif not found");
 
+       System.out.print("\n");
+       
+	   sampler("5by10withmutations.FASTA", 4, 5, 10000); // test case 2 (from textbook example), mutations included in inputed motif
+       if (bestConsensusMotif[0] == 'a' && 
+    	   bestConsensusMotif[1] == 't' &&
+    	   bestConsensusMotif[2] == 'g' &&
+    	   bestConsensusMotif[3] == 't'){
+    	   System.out.println("success: implanted motif found");
+       } // end if
+       else System.out.println("failure: implanted motif not found");
 
+       System.out.print("\n");
 } // end main
 
    public static void sampler(String DNA, int k, int t, int N) {
@@ -49,13 +69,14 @@ public static void main(String args[]){
 	   try {
 	      Scanner s = new Scanner(text);
 		  while(s.hasNextLine()) { // cleans FASTA input and generates sequence array
+			 input = "";
 			 lineCount ++;
 			 input = s.nextLine();
 			 if(lineCount % 2 == 0){
 			 sequences[lineCount/2 - 1] = input;
 			 } // end if
 		  } // end while
-		   
+		  lineCount = 0; 
 	sequenceLength = sequences[0].length();
 	s.close();
 	   } // end try
@@ -69,6 +90,8 @@ public static void main(String args[]){
 	   for (i = 0; i < sequenceNumber; i++) { // creates random motifs of size k
 		   motifs[i] = randMotif(sequences[i]);
 	   } // end for
+	   
+	   bestEntrophyScore = 2147483647; // resets
 	   
 	   // cycles the number of times specified
 	   for(int j = 0; j < cycles; j++) {
@@ -104,7 +127,7 @@ public static void main(String args[]){
 	   System.out.println("Hamming distance score of motif: " + bestHammingDistance);
 	   System.out.println("Total entropy of motif profile: " + bestEntrophyScore);
 	   System.out.println("Avg. entropy of motif columns: " + bestEntrophyScore/motifLength);
-	   
+
    } // end sampler
    
 	   // cycle starts here
@@ -415,6 +438,7 @@ public static void main(String args[]){
 		   gCount = 0;
 		   tCount = 0;		   
 	   } // end for
+
 //       System.out.println("count: ");
 	   for (int[] motifLength : theMotifCount){ // nice matrix print
 		    switch (x){ // format print
