@@ -13,6 +13,14 @@ public static String input;
 public static String deletedSequence;
 public static String[] sequences;
 public static String[] motifs;
+public static int cycles;
+
+public static double bestEntrophyScore = 2147483647; // max int (to be overwritten)
+public static String[] bestMotifs;
+public static int[][] bestFullCountMatrix;
+public static float[][] bestProfileMatrix;
+public static char[] bestConsensusMotif;
+public static int bestHammingDistance;
 
 public static void main(String args[]){
 	
@@ -23,20 +31,21 @@ public static void main(String args[]){
 	   long totalTime = endTime - startTime;
 	   System.out.println(totalTime+ " nanoseconds");
 	   */
-	
-	   sampler("10by100.FASTA", 3, 10, 100);
-	   recursiveNarrow();
+	   
+	   sampler("5by10.FASTA", 4, 5, 100);
+
 
 } // end main
 
    public static void sampler(String DNA, int k, int t, int N) {
 	   sequenceNumber = t;
 	   motifLength = k;
-	   sequenceLength = N;
+	   cycles = N;
    
    File text = new File(DNA); // file must be present in same directory or given with specified file path
 	   sequences = new String[t];
 	   motifs = new String[t];
+	   bestMotifs = new String[t];
 	   try {
 	      Scanner s = new Scanner(text);
 		  while(s.hasNextLine()) { // cleans FASTA input and generates sequence array
@@ -46,20 +55,59 @@ public static void main(String args[]){
 			 sequences[lineCount/2 - 1] = input;
 			 } // end if
 		  } // end while
-		  
+		   
+	sequenceLength = sequences[0].length();
+	s.close();
 	   } // end try
+	   
+	   
 	   catch (FileNotFoundException e) {
 		e.printStackTrace();
 	   } // end catch	   
 	   
 	   int i;
-	   for (i = 0; i < t; i++) { // creates random motifs of size k
+	   for (i = 0; i < sequenceNumber; i++) { // creates random motifs of size k
 		   motifs[i] = randMotif(sequences[i]);
-//		   System.out.println(motifs[i]);
 	   } // end for
+	   
+	   // cycles the number of times specified
+	   for(int j = 0; j < cycles; j++) {
+		   recursiveNarrow();
+	   } // end for
+	   
+
+	   // output
+	   System.out.println("motifs: ");
+	   for (i = 0; i < sequenceNumber; i++) { // creates random motifs of size k
+		   System.out.println(bestMotifs[i]);
+	   } // end for
+	   System.out.print("\n");
+	  
+	   System.out.println("motif count (a,c,g,t): ");
+	   for (int[] motifLength : motifCount(bestMotifs)){ // nice matrix print
+		    System.out.println(Arrays.toString(motifLength));
+	   } // end for
+	   System.out.print("\n");
+	   
+	   System.out.println("motif profile (a,c,g,t): ");
+	   for (float[] motifLength : bestProfileMatrix){ // nice matrix print
+		    System.out.println(Arrays.toString(motifLength));
+	   } // end for   
+	   System.out.print("\n");
+	   
+	   System.out.print("consensus motif: ");
+	   for (i = 0; i < motifLength; i++) {
+		   System.out.print(bestConsensusMotif[i]);
+	   } // end for
+	   System.out.print("\n");
+	   
+	   System.out.println("Hamming distance score of motif: " + bestHammingDistance);
+	   System.out.println("Total entropy of motif profile: " + bestEntrophyScore);
+	   System.out.println("Avg. entropy of motif columns: " + bestEntrophyScore/motifLength);
+	   
    } // end sampler
    
-	   // recursion needs to start here
+	   // cycle starts here
 	   
 	   public static void recursiveNarrow(){
 	   
@@ -85,16 +133,26 @@ public static void main(String args[]){
 	   char[] consensusMotif = new char[motifLength];
 	   consensusMotif = consensusCalc(motifCount(motifs)); // fills the consensus char array with the most frequent base
 //	   System.out.println("\nHamming distance score is: " + 
-	   hammingCalc(motifs, consensusMotif);
+	   int hammingDistance;
+	   hammingDistance = hammingCalc(motifs, consensusMotif);
 	   
 	   int[][] fullCountMatrix = new int[4][motifsAfterRemoval.length]; // creates two-dimensional array to hold count
+	   bestFullCountMatrix = new int[4][motifsAfterRemoval.length];
 	   fullCountMatrix = motifCount(motifs); // makes motif count from unspliced array
 	   
 	   double entrophyScore;
 	   entrophyScore = entrophyCalc(fullCountMatrix);
-	   System.out.println(entrophyScore);
 	   
-	   // end recursion case
+	   // overwrites final result items when better entrophy score is encountered 
+	   if (entrophyScore < bestEntrophyScore){
+		   bestEntrophyScore = entrophyScore;
+		   bestMotifs = motifs;
+		   bestFullCountMatrix = fullCountMatrix;
+		   bestProfileMatrix = profileMatrix;
+		   bestConsensusMotif = consensusMotif;
+		   bestHammingDistance = hammingDistance;
+	   } // end if
+	   // end cycle 
 
    } // end sampler
    
@@ -143,7 +201,6 @@ public static void main(String args[]){
    public static char[] consensusCalc(int[][] theMotifs) {
 	   int i;
 	   char[] theConsensusMotif = new char[motifLength]; 
-//	   System.out.println("Consensus sequence: ");
 	   for (i = 0; i < motifLength; i++){ // iterates though elements in OUTSIDE loop
 		   
 		   int max = theMotifs[0][i]; // sets default "winner" base for consensus formation 
@@ -160,7 +217,6 @@ public static void main(String args[]){
 			   max = theMotifs[3][i]; // overwrites 'a' if there is a base with a higher tally
 			   theConsensusMotif[i] = 't'; 
 			   } // end if
-//		   System.out.print(theConsensusMotif[i]);
 		   max = 0;
 		   } // end for
 	   return theConsensusMotif;
@@ -207,7 +263,7 @@ public static void main(String args[]){
 	   String kmer = new String("");
 	   for (p = 0; p < sequenceLength-motifLength + 1; p++){ // increments through k-size "slices" of deleted sequence 
 			kmer = deletedSequence.substring(p, motifLength + p);
-			for (i = 0; i < 3; i++) {
+			for (i = 0; i < motifLength; i++) {
 				if (kmer.charAt(i)=='a') {
 					baseChance = theProfileMatrix[0][i];
 				}
