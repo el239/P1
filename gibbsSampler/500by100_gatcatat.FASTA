@@ -1,0 +1,1000 @@
+>seq 1 | Implanted String: gatcttat | Motif for Entire Set: gatcatat
+cgtttcttaggacacgagtccttattaggcacgaagaaaaatcagatcgaacgcgcccgtcgctgttgaccagaacgtctgagagatcttattcaatcca
+>seq 2 | Implanted String: gattatat | Motif for Entire Set: gatcatat
+ccggtagtttaatacagcgttagcacccaacagtaacaaaccggattagtgtggtacgtggtacaatcgacccgggaattgcccgttgattatatcccta
+>seq 3 | Implanted String: ggtcatgt | Motif for Entire Set: gatcatat
+tcacaaacgcatggttcgagactaccctccttctgtaaggaacaaatcggtcatgtatcacctctgccggtatcccctagtgtctggatcctcgtggatg
+>seq 4 | Implanted String: gatcaaaa | Motif for Entire Set: gatcatat
+cttgagagccatacgctgagatgaagccgatcaaaacggttccagggactcgtctcgcttatgtagatcagtagtgatagctcaacaccaacaaccgctg
+>seq 5 | Implanted String: gatcgtat | Motif for Entire Set: gatcatat
+atcggccagataaagtaaatctctacgcggacaaggcacgtgatcgtatggagcaggccacgctgataatgacaccaaccaatcatacttaaaggcccgt
+>seq 6 | Implanted String: gttcatat | Motif for Entire Set: gatcatat
+agatgactacggtcaagcataccttcccgggaccgttcatatctatactatagcttgccagactaggatttcgtatttggcgatggtgttaataactaaa
+>seq 7 | Implanted String: gaacttat | Motif for Entire Set: gatcatat
+aatcatcgagttagtctaatcagaggacctcttctagcggtacgggaaggcagcagacccgtcaattttgaagaacttataacacacgatgacgtgaaag
+>seq 8 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+tttatgatcatatgttagcgggactgactctggttgatctatcgagcccctgggtcctgagttacggacagcgtcaaagatcgtgcacgatttgagcacc
+>seq 9 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+tgcgtagtgtgctgcggttggggccttagtgtgttactggaaatacgcagatcatatgtacggcctaaatgcccgataggcattggacgcaaacaggccc
+>seq 10 | Implanted String: gatcatgt | Motif for Entire Set: gatcatat
+attttgttaatgcccctccgtattgccacatcggaattgatcatgttgcgatttatgtgtatgtcaaccctacacggtacgtaggtgtcctaacgtggga
+>seq 11 | Implanted String: gatcatac | Motif for Entire Set: gatcatat
+atgaattgtctacgttacgcctcacgcttaagctagatcataccatccagaccataaccgtcccgcatcggcttagagagttggttaaagatgcagctac
+>seq 12 | Implanted String: gatcatac | Motif for Entire Set: gatcatat
+ctattgctatatctaatatgaatccccaagctagacattatatcgatcatactgcaaatgatccatatacttcttggcataataaaaccatatcgtttat
+>seq 13 | Implanted String: gagcataa | Motif for Entire Set: gatcatat
+cgttacttccatgagcataagtactctgatggacatcgacaggggcccagtggtcggaagagaaacgcgatgagcaaatgtacctcccggctttcacgtt
+>seq 14 | Implanted String: taccatat | Motif for Entire Set: gatcatat
+ttcaaggtgcggtgatctgtatgtggagagcaaaaacccacattggtataccatatactgggaggactaccgtgctagtagggtagatgagtcgtacttg
+>seq 15 | Implanted String: gatcagat | Motif for Entire Set: gatcatat
+gagggtcattaggggaaggtacctatattcgtaagccgaccttaatatactagatcagatcgcaatactaatctcctgggagggaacatcctccccgtct
+>seq 16 | Implanted String: gattctat | Motif for Entire Set: gatcatat
+accaggctttcctacaatggctttcaacctattctaaataatggacctgtgctgatcatccactgcccagattctataagtgatttagtgttcgtaggtc
+>seq 17 | Implanted String: gatcacat | Motif for Entire Set: gatcatat
+taaattggttcttttaaaggtggatccagttcgtgtgattagcgttctcgttctggcagcttactgcgaggcggtgagaaaagactgatcacatatgtac
+>seq 18 | Implanted String: gatcataa | Motif for Entire Set: gatcatat
+tatctagggatcataacttgaaaccctgttcatggagtcttaggtatttgagccatcatgtatgttactagcgtcatcgaggactagcggttcattacgc
+>seq 19 | Implanted String: gctgatat | Motif for Entire Set: gatcatat
+tgatctagattgacagtgatgccgataataagctgatataacaagatcaaggtcggcaaccctaggaatacctcattgcatagggggacatccacccatg
+>seq 20 | Implanted String: gaccatat | Motif for Entire Set: gatcatat
+tcagagcgaatcctggcgtcggggcttacttataaatacgtggctcaaggacgagcgacccgaccatatggttgtgattccagttgatcctgtaccttct
+>seq 21 | Implanted String: gataatat | Motif for Entire Set: gatcatat
+ttacactgcactccaagacggattagggcacggtgatcgtaatccaagtcgacccttctgcacgatagctgataatatttgttatgtcagttcaagagcg
+>seq 22 | Implanted String: gatcagat | Motif for Entire Set: gatcatat
+ttcgagtgcctgtgcatatctgtcccgtgcggcgagccctgctgaagttatgcagatcagatcagctgctaccgaatattggtcaaaatctagatgctac
+>seq 23 | Implanted String: gatcatac | Motif for Entire Set: gatcatat
+aggcgtagtataatttcaactgacattaatacccactaatgaggctgggcgtatcgcggctatcacgaacacgttagtcagcgtagtgatcatacactct
+>seq 24 | Implanted String: gatcgttt | Motif for Entire Set: gatcatat
+cttggaagcacacacactcatcagatttgatcgtttggttgaagccacggcccagcacaattcgtccggtagcggtacaggacgaatattttgttgtaaa
+>seq 25 | Implanted String: gataatat | Motif for Entire Set: gatcatat
+acttggcacagaatgatttcgccgggttttatatcgagacagagcgttatggaaggataatatccggtaatccggtagcctgaaccgcagcatgatccct
+>seq 26 | Implanted String: gatcaaaa | Motif for Entire Set: gatcatat
+ttcgagttggttctgatggcacggactttaaggatgaaagatacaagaccgatcaaaacctaaattccccccctggacggatgccggttaagccattcac
+>seq 27 | Implanted String: gttcatat | Motif for Entire Set: gatcatat
+gttcatatcctccctcttgcaaagaagaagagcttagcaagctcttaggctgctatattacggtcttaaagccccttactttctaatgctgttacaccgg
+>seq 28 | Implanted String: gagcatat | Motif for Entire Set: gatcatat
+gtgaagatggaacgtttacattgtgtcagtgtatgggtgaggactcagaccgtagggaagtgtcgaaccctcctgcacattgagcatatgtcgcgtccaa
+>seq 29 | Implanted String: aatcatat | Motif for Entire Set: gatcatat
+tccgcagtccagtaatcatattcttacaaccgccatcaccttcgccaaatagttagggagtagctggatgcacaaatacatccaatctagcttgactgtg
+>seq 30 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+tcatgctcgttttataaccctagtcataagagtccacatataaggacttctgttggtccgctgtgcaggataccccactaaggatcatatgttgggccct
+>seq 31 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+ttgaatgtgccggtaaccggtctctctagcggtagggagccactatggcacgttgtggcgcggatcatagcgacagtccaaggtgatcatattcaaaaaa
+>seq 32 | Implanted String: gatcaaat | Motif for Entire Set: gatcatat
+cagcttgttgagatcaaatacctagtgtccaactgcgagtgattggtgtccagtgtttgcgagtggatactagctactttagacgagagtcgtatggttg
+>seq 33 | Implanted String: gatcatag | Motif for Entire Set: gatcatat
+gcccgctagcaggggcgcttcctaggatcatagcaaggagccgtagtccaaatgaatagggcggaacccggcataggattctctgaccagcagcgcatct
+>seq 34 | Implanted String: aatcataa | Motif for Entire Set: gatcatat
+aattctgctagatacgcccagtggactggccccatgggttcttggccttatgaagaggacgagcacagggcacaaatcataatcagtgtttcaacaatac
+>seq 35 | Implanted String: gatcataa | Motif for Entire Set: gatcatat
+cgttcccgttccggtggaagcccgactccgatcataaaggacgtcttgcgcactttcggcgttcgccaataccggatgtcgataccgtgcttcgaaaacc
+>seq 36 | Implanted String: ggtcattt | Motif for Entire Set: gatcatat
+gcagactggccgcccggactagtgcccgagcaacaaacactgaaagcctggtcatttcttcaagcttgattactggtctcctccagagcaaggtataaag
+>seq 37 | Implanted String: gattatat | Motif for Entire Set: gatcatat
+tagcgtgaccgcgacctctatgattgtaccgagggattatatattaagagcgcggtcggtgggagtcattggcacaagtctttggaggttaaacgacctt
+>seq 38 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+ggtcaagaactgaaaggacctagcgccgacagcaaggggcgaagattggacaatccagatcatattttaatgtggtttgcacgaatattttccctgtaca
+>seq 39 | Implanted String: gaacttat | Motif for Entire Set: gatcatat
+gacccctcggaggcgtgtatccggacttaactggagacggtaacaagcgctgcctctctatccttaaatgaacttatgctcgagcccccaacaacagagc
+>seq 40 | Implanted String: agtcatat | Motif for Entire Set: gatcatat
+cgtagtcatatcgcgtctccccccgaaccacgattaggtcacctaagggactttaacagcgcccgcgtctgactgtgcgctagaaacttgtgatccggag
+>seq 41 | Implanted String: gatcaaat | Motif for Entire Set: gatcatat
+atgttatcccatggtggtggtccgatcaaatacagcatggctcccgccaacatgttaaacgacgtaaagacggcagggcatatggctaattagagggctc
+>seq 42 | Implanted String: gatccaat | Motif for Entire Set: gatcatat
+acatgttgagactcgatccgcccggaatcgcgctcctaggcaagatccaatcgtcggcccaattcttctaactaacagctcgctcaacccgaactgtcgc
+>seq 43 | Implanted String: gataatat | Motif for Entire Set: gatcatat
+tgctacttttaatgctgacatggccttatgttaggagacaaatactgacgaactgataaccggcaggataatatgagaaacaaataaggggccaaactca
+>seq 44 | Implanted String: gatcaaat | Motif for Entire Set: gatcatat
+agaatccccttcagccatgtccagcctcacactgacgatgaagggggctgaatctggcgcatggcacatatcgtactggtagggtgctcagatcaaatcc
+>seq 45 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+gcagctaacaaacgtttagacctggctgtcgggcgaccgatcatatcgtttcgagggtgcagagttctttactacagatggtcggtctgtatgctgatcg
+>seq 46 | Implanted String: gatcataa | Motif for Entire Set: gatcatat
+agagctcatccctttgtgcagagttactacgaggcggatcataaaaagatggggagctcgtgaccgatcaataaccgggcagcatcgttttcgaaaacat
+>seq 47 | Implanted String: gagaatat | Motif for Entire Set: gatcatat
+tccacgcgagtgtgaccgtctctcttggtctactgagagaatattgaacgttacctcgtttggaatctccagacgcgcggcatcgatacctcagtctgct
+>seq 48 | Implanted String: gatcatgt | Motif for Entire Set: gatcatat
+gcaagtcgtcgctcgagacttttagaacagtcgcattcctgaactgtctctgctctgggtaccaagtgtagggtaaagacgagatcatgtaacccgacgt
+>seq 49 | Implanted String: gatctgat | Motif for Entire Set: gatcatat
+gcctggtgggaggtttaccggtagcttcctggcttgtcccctagccggcccctaagatctgatctttaccgcgcaaatacgtgctttgtgtaaggcatta
+>seq 50 | Implanted String: ggtgatat | Motif for Entire Set: gatcatat
+cgccgactagtgtcgctcggtgatatgtcgcctggcgatccgggtctactagtgcttaaggcggacagtcagggcgctcatgtgcgcccaggtcccggta
+>seq 51 | Implanted String: aatcatat | Motif for Entire Set: gatcatat
+tacgtaggcgaagcgcaattgaaatcatattgggcattgactgtgttactgcattcctcctagtattgacgatagtcaaaaaagcccgatgcattccatg
+>seq 52 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+gtcgagattggtcaaatgatcatatcacataccccgcacatttaattagacttaactcgaaacatacaccggtcgtcagtgctgaagtgcggcgatcagt
+>seq 53 | Implanted String: ggccatat | Motif for Entire Set: gatcatat
+aaataccaaaagaccagtggaagtgcggggccatatagacataatacataggcttcagtttcttgagttttgatataatcagagtctctgcattatagaa
+>seq 54 | Implanted String: gatcagat | Motif for Entire Set: gatcatat
+cagtgtgtagctccaagcatgcagatcagatcaggccaaagacctatcaagctgatgcttctaggaactgagacaatgtagggcgggtggtgttatacaa
+>seq 55 | Implanted String: gatcatac | Motif for Entire Set: gatcatat
+cgctttggttccaaaccaaggtatagtcgatctattgtattgggacgtatagaatccaacgggaccaggtcaccgtatttgatcatactcttggtggccc
+>seq 56 | Implanted String: ggtcatat | Motif for Entire Set: gatcatat
+ccaagcacttacgctgttgatctgctatagcaagatgcactagtagcccgacgcggccacaaatttccatgtaagagggtcatatagtgtatatgcgaaa
+>seq 57 | Implanted String: gatcaaac | Motif for Entire Set: gatcatat
+tctggagccaaatctgcgaccaaaaattcattcattagccacttccaatgtagggtcattgacacacgtgatcaaacattcctatcctcacttgctccca
+>seq 58 | Implanted String: tatcaaat | Motif for Entire Set: gatcatat
+aaaccctgggaaaaaactagtcaatggttcgtacatccaaaaacgaccaaaattcgttctagccactggggatatcaaatacattgcgagtttatgtcta
+>seq 59 | Implanted String: gttcatat | Motif for Entire Set: gatcatat
+tcaggagtgatcaaagccgtgggatcgtcggctctctggattcgatccggcgatcattgcatatgactgggaggctccgagtgctgaatggttcatatcg
+>seq 60 | Implanted String: gatgatat | Motif for Entire Set: gatcatat
+accacaaaagcggatctttagcagataataggtttccatactagagggtaggggcgtagcagagatgatatgacgtagaacattgaataggaaacactcg
+>seq 61 | Implanted String: gttcatat | Motif for Entire Set: gatcatat
+tactcatgttcatatagagggcataagttcataagagacggggcgccagtgtgtaaccaagtcaatgttgtcagctcattctccatatagtcttggtttg
+>seq 62 | Implanted String: gatcgtag | Motif for Entire Set: gatcatat
+cttattgcgatagaataatggacttcgaccttcagtctgtaccttagatcgtagtcaacttgagcagactagaattaaaatgactccctttacgcctccg
+>seq 63 | Implanted String: taccatat | Motif for Entire Set: gatcatat
+tttgcatcacgttctacccttggtcaagtagcgtctaccatatttcaagggccataagggtggaatcgtgcctgccatgagagaacccctcgggttcggg
+>seq 64 | Implanted String: gaacattt | Motif for Entire Set: gatcatat
+gatctaatgtcttgataagtataagtcgattgggaacatttgtgctcgcggctgacttaacggtttgtttactcctggatcaccgagaccgcgtttcaaa
+>seq 65 | Implanted String: catcatat | Motif for Entire Set: gatcatat
+acattatataaccaggccggataggcgtgatggcatcatatggtatgacgataagcatccctgcgatgtcgggtttacccactacgggaaatactatcca
+>seq 66 | Implanted String: gatcaaat | Motif for Entire Set: gatcatat
+ctgatcgtgagaaagatggacgaaccaccaccaccaagatcaaatataccccggagccgctgttagaagaatgaggaggttgtacgggcaaggtaatccc
+>seq 67 | Implanted String: gctcatat | Motif for Entire Set: gatcatat
+cagcttgaatattaagagtggctttgctcatatccgtgagtttccctccgtttccgccccgcgtaagctgctgactcagccactgtactcgcgaccgaag
+>seq 68 | Implanted String: gatcacat | Motif for Entire Set: gatcatat
+acttggcttgtctagggtgaacctttccgactaagaaggtctaggtgtcgccttaaagttgcactgataacgcagatatgtacggtactgatcacatgct
+>seq 69 | Implanted String: gatcagat | Motif for Entire Set: gatcatat
+tccgcttaccgatcggaacccagttgacgttcttcgcatttgttctccttgatcagataccttgtcggtcaggtacagtcgacccacgtgctcctgtcgt
+>seq 70 | Implanted String: gaccatgt | Motif for Entire Set: gatcatat
+ctctgtttagcgaccatgttccgatcggatatgggtgtaactgggtagcaatatcctccggccgcgggcaattttgctcggaattggggtatacggctag
+>seq 71 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+tcgccctcatacgcgcatcgcgattagatcatatacttcgcgcgaatgtactacaaagatcggctcgctgcttgtttgagatgttgggtcggaaacagat
+>seq 72 | Implanted String: aatcatat | Motif for Entire Set: gatcatat
+gttttgttccggttcgaagttattgaacaatcatatatgactggtagagcagtgagttactgggaatttagaattgaacccaaaaggggcggtgtaaggg
+>seq 73 | Implanted String: tctcatat | Motif for Entire Set: gatcatat
+aaacccattccctagacgccctgaccagagggtaaggggtcctatcatgggtacttattcgttatctcatattgtctcctaaacgtaaaggaatccctgt
+>seq 74 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+gatgggagctagacgatcatataacgtagcttagactcgtacccgccatccatcgccgtggctttacacccctccattattactgagtcgatggagatta
+>seq 75 | Implanted String: gaccgtat | Motif for Entire Set: gatcatat
+tatggcctaggccagactgggaccgtattattgactgcttttaacatatgcgcccctacgtttgtgccgcgaacagggtatgcgaggcacgggacaactg
+>seq 76 | Implanted String: gatcacat | Motif for Entire Set: gatcatat
+ctacaaacaaagccttaatagacacgtgcgggtgccatctatcggatcacatacacgggcacaataggcgcagggtaaggtagcgaagaccaggtctggg
+>seq 77 | Implanted String: gaacatat | Motif for Entire Set: gatcatat
+tttatataagcacgatttcatccctactatcgaactttatagcagccggcaagtcagggtttgcagacgtcacaggttaaccgcgaacatatgtccgctg
+>seq 78 | Implanted String: aatcatgt | Motif for Entire Set: gatcatat
+cggcgtattccggaggctaattgacagggaccggagcccgtgaagctactggtgaccacggttaatcatgtaaaatcttttaggggctaggcttctgcag
+>seq 79 | Implanted String: gatcatac | Motif for Entire Set: gatcatat
+tcaatccatacgccgatggaccgcaaggaaacagtgcatcgagaagtttaacctatgccttatgaagtactggagactttctcaggatcatacttaaggt
+>seq 80 | Implanted String: gatcatac | Motif for Entire Set: gatcatat
+gtctcctgagccaggggctattctgtaggtgacaacgatgtataattcgagggatcataccaggcagcccgcaaagtataccggaagatttttatgctct
+>seq 81 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+catgtgaaaatgctggactaaacacttaatcgcaccttaatagttaatcaggacctctctgtaaattgaagcgaactggtgtcaaacagagatcatattc
+>seq 82 | Implanted String: gattctat | Motif for Entire Set: gatcatat
+taggctcacggcgactgatcgcgcctccacttgtttggccacagagctagtggacccaagtatcggaaccatggttgattctatgacccgtttggtaacc
+>seq 83 | Implanted String: gatcctgt | Motif for Entire Set: gatcatat
+agcttaaggaacatgatcctgtttcgcagacccgaacatctacggggctactaggcgtgtttgccccgggtaacgggggatgtgcctgaccgctcgcatg
+>seq 84 | Implanted String: gctcagat | Motif for Entire Set: gatcatat
+taagtggcgggttagtgtgtgaagtactaagatattcatctgtggatccaagctcagatagtcgcaaacccgcagctctaggtgctctcacaatcccaat
+>seq 85 | Implanted String: gcccatat | Motif for Entire Set: gatcatat
+taagaacgttaatagaaatctgatattgctccttcgatgtatgatgtgtccactaccgcggcgaggcccatataacgctaacctacgacgcctctttact
+>seq 86 | Implanted String: gatccttt | Motif for Entire Set: gatcatat
+ctccatttcgcgcgctagtagtcgatccttttggaggtagagactataggtgacgctagtgaattccgtacgcagtacaaaccctcgtcgccatgtgcgt
+>seq 87 | Implanted String: gatcatct | Motif for Entire Set: gatcatat
+caaaacatcctggcgcccttcaactgatcatctctttagtgctcatctcgggcggtctcccgaccgtcctcacgacgcaatcgcgaggccatggttgtgc
+>seq 88 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+atctactgaagagtatccaccaaatagatcacatgacacattgcgttcccggctgcataccagttgaggtgtatttcgcagatcatataccactgggcaa
+>seq 89 | Implanted String: tgtcatat | Motif for Entire Set: gatcatat
+aaagtgggctgacactagtaccaacaaggacctggttattctgcttgcgctagtgtcatatccggatcacatatcggtcattcattcgtttgagcacgcg
+>seq 90 | Implanted String: catcacat | Motif for Entire Set: gatcatat
+ctttgtcgcatagacgaggcctcattcagttgttagcaaccaaagtgtatgccccagttgcacatcacatttgcgcctctcgcgccttccctaacacggt
+>seq 91 | Implanted String: gaccatat | Motif for Entire Set: gatcatat
+gtgccgggtcaaaaggagtgggaccatatgtccaacggctctttgtttacagctcttgtttcgtcgagttaagtgcagaagccgaccttgaaacaagctc
+>seq 92 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+cttgcccagggatcatatgcagtaactattgtccggatctattttgtggtctgataacacgtcagtacacattcgagttgaggtcgtcctgtcacccgat
+>seq 93 | Implanted String: aatcacat | Motif for Entire Set: gatcatat
+agattctacattggtcctacgaatgagatatcgagacgggaccgacagtccaatcacattgggtccatggttttacactgcgttaaattaagcaacatac
+>seq 94 | Implanted String: gattagat | Motif for Entire Set: gatcatat
+gaggctaatatcgatgactttcatcgtgaccttgggagagagggcatcaattgcaggtcgattcgcgatcgaacgattgtccttgattagataagcgcgc
+>seq 95 | Implanted String: ggtcaaat | Motif for Entire Set: gatcatat
+gctctctgtcagacttgtgctcctagtagaaaggcattattcatccgcgtcgtgtccttggctaagcaacttcctcgtccagtacaaaaggtcaaatccc
+>seq 96 | Implanted String: caccatat | Motif for Entire Set: gatcatat
+tttaatgtaggctttgagacaacgagcgatcaggacggtgatatgtcgaagaaaccacccttcgcagccgcacgttccaccatatgacggccctctgcgt
+>seq 97 | Implanted String: gatcataa | Motif for Entire Set: gatcatat
+gttgccagtacttgtacccctaagagcactgctcattttaatcgagattttgacgtaagccgaaaaatcttcaggatcataacgccaacagctcacccat
+>seq 98 | Implanted String: gaacatat | Motif for Entire Set: gatcatat
+ttagaacatatgaactatccactcgggattcccgacatggccctcacacctgtgaagggtttctttcgcggaacgtgctgaatcgaaactagtattcgaa
+>seq 99 | Implanted String: gataatct | Motif for Entire Set: gatcatat
+ttcgtattgtatattataatacccttcgataatctgaaacgaggcgccggttgaggagcaaagcaactgtcagccacaccaaggagcgatcccgctctag
+>seq 100 | Implanted String: gataatat | Motif for Entire Set: gatcatat
+agggcgggtgcttctcaaatgataatatatgtcggggcacactgtaatcgtttccaaatgttcgccccacgagttctttagagtacgacttacaccatga
+>seq 101 | Implanted String: gtacatat | Motif for Entire Set: gatcatat
+tcacataaacttcagccgctcggcggtccggtcaataagcccagtacatattactagaagtctcccccatagaaccgtagggtggttccgatgtcatcta
+>seq 102 | Implanted String: ggtcctat | Motif for Entire Set: gatcatat
+ttacaggccttcccccccccggtaggcaaaagtgattagcaaaccggtcctatgtaaacaaacgcgccacctgccctccattctaaatggaaacgttggt
+>seq 103 | Implanted String: gagcacat | Motif for Entire Set: gatcatat
+tagcaccgcgatcgactttagggcgacttgagtgcgagcacattacactttagttaatggtgtaagaattcagagatttagacacgttatgctacgagtc
+>seq 104 | Implanted String: gatgatat | Motif for Entire Set: gatcatat
+gtgagacacattgacatcatacgggcagatgaccataaaccaagccccagttgatgatatgatccttgtgaaatattgtacgatgccctagctctaattc
+>seq 105 | Implanted String: gatcacag | Motif for Entire Set: gatcatat
+ttctaagtgtagatcacaggtaataacaatactagcccttcatccgtagaccgtagtgccgaaaatggccgacaagagaatgcgatcgcggtgccgtgtc
+>seq 106 | Implanted String: gatcatct | Motif for Entire Set: gatcatat
+cagcgtatgccgccgctcctagtagtagggcagctactaggagggcgtggaccggctgagcggatgcctcatcgcgccatttcattgatcatctgagcgt
+>seq 107 | Implanted String: gatgatat | Motif for Entire Set: gatcatat
+gcgaattcgaattcgctccctcgtctgttcaaatcaaggatgatatatgaacaataatgacacgctgtggaggataacgcactggtttcccgacgcttaa
+>seq 108 | Implanted String: ggtcataa | Motif for Entire Set: gatcatat
+aataaagctcccctcatcaacgaaggtcataatgccctccgtagagaagcctctccactgtaactcgcgtatgaagttcatgtgaccgctcgccagggac
+>seq 109 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+cgctgcccaataaggtgttgatcatatctagacaaattgtaaattggtaacttagatatctcgaccgaacgaaaacgttaacctgaatttagatctgcgc
+>seq 110 | Implanted String: ggtcttat | Motif for Entire Set: gatcatat
+agcatggtcttattgggggaaattgcctgcctcgtacgcatgcgccgattccgttactagacatgcgcaaacatgagagcacgtgatggcttagtcggac
+>seq 111 | Implanted String: gaccctat | Motif for Entire Set: gatcatat
+cttaagggggaccaggggacgttgcggcatatggatctggcagatgcgcttgggaccctatgaatcccgttgaatggcctttttttcatagcgtctgaaa
+>seq 112 | Implanted String: aatcttat | Motif for Entire Set: gatcatat
+cccttaccagccagctctccatggtaggcctgcgcgtaataaataccaccttccatccgaggaatcttatccacaacgactcgcccgtcgtgtggcctct
+>seq 113 | Implanted String: tatcatct | Motif for Entire Set: gatcatat
+gaagcacggtgatgcaccatatgtccctcgtggaacctttatcatctgagatgagatagctggtctttagatgccgtatagagaaaatgaatgtaccggg
+>seq 114 | Implanted String: gtccatat | Motif for Entire Set: gatcatat
+tcgatgcaacaagttaaactgttaatcggtgccactgcgtggtccgaccttcatttctttgatacctgtccccgactattcggtttaatgtccatatgat
+>seq 115 | Implanted String: catcatat | Motif for Entire Set: gatcatat
+aaacttccgtctgtgcagaagaatatcgtgtcttgaatctctagccatcatatgagtggtggaagtaatctggccgagcttacaatcaccaaaatcgtct
+>seq 116 | Implanted String: tatcatat | Motif for Entire Set: gatcatat
+ccagcttagatttttgatggacgtaattgagaggatactatcgaacccgtattattatcatatctggctgctaggcttaagtaagatattttacgcgagt
+>seq 117 | Implanted String: gatcctaa | Motif for Entire Set: gatcatat
+aacgtgcggtgcttcctgactagctagacgttcgaaataactcgttccagttagttgaacaacgtaagaacttaaaggcgatcctaaatcattgcataat
+>seq 118 | Implanted String: gattataa | Motif for Entire Set: gatcatat
+gactgattataagaacattgcgggttaagccttaagttatgcaacagataacaactcggtagagtatacctatgactcttgcttgtaggagccaaatagg
+>seq 119 | Implanted String: gctcatat | Motif for Entire Set: gatcatat
+tcacgtacgaccgatagatcttcaagtccgggacttgctcatataggagtccagaggcccacatgggcacgtgtcaatgtggaagtcggaacgggatcat
+>seq 120 | Implanted String: gatcaaat | Motif for Entire Set: gatcatat
+agggtatcgaccgcgacgccccgtcgtataaagtttgaacacgatcaaatagggtctgcatgagctagcgtatgcccgtattctagcgatcctgtagtca
+>seq 121 | Implanted String: gatcctat | Motif for Entire Set: gatcatat
+cgggatcctatgaccctgtgtgatccctcgactctgccaacaacgtgatgatgggtgtcgccgtactttggaaaccgactgtaggctgccagcatacgtc
+>seq 122 | Implanted String: tatcatct | Motif for Entire Set: gatcatat
+cctccaaattctcggtccgcccacttatcatctagcagggcggccaagcggcgttgttcgataggtaccaattgacgcgggagcacatcaagctgtgcca
+>seq 123 | Implanted String: gataagat | Motif for Entire Set: gatcatat
+tgataaacggcgctgagttgggggtcattagggaccgcccactgaagcctatgctctcacacttaaattgataagatagcgcttggaccctttatgcact
+>seq 124 | Implanted String: gataatat | Motif for Entire Set: gatcatat
+aatgtactgcaagttttcctttgataatataccccctcgagtttctcaacttaatgcctctgtcctgtccgtgcattaaggtcttatcagctagaccgtt
+>seq 125 | Implanted String: gatcatgt | Motif for Entire Set: gatcatat
+gacaagtgtccctcaccaccaacttactacaacattagagccgaacgttccaggcgtgccggtacttggtagggttatgaagtgatcatgtcgactggga
+>seq 126 | Implanted String: tatgatat | Motif for Entire Set: gatcatat
+ggctagacgcgtatggttacttgctcataatatgatatgcggtctcgtggttaagcgtccgcagtcaatttgttatcaagatgacaagatacgacaccgt
+>seq 127 | Implanted String: gatgttat | Motif for Entire Set: gatcatat
+aaaaggatagtagcgatttcgttttgatgttatatggctagtaggcggaagtgcagggtcgatgattgtatgtacatcaactagtataacggttcaagcg
+>seq 128 | Implanted String: gatcaaat | Motif for Entire Set: gatcatat
+gcaaagacttgatcttgagttctacgatgaccagatcaaattgtacgcgcatgatgagttgtccttgcgcccggtgttaaagtgcggaatgtccccacac
+>seq 129 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+cgcgataacccgggtgcgggaatccacagcgcagatcacaagttaccacacgttttgttgcgatcatataggaattatgtcgatagcgggcaggagggcg
+>seq 130 | Implanted String: ggtcgtat | Motif for Entire Set: gatcatat
+ctagagggggccggttaaatcaaagggtcgtatttgtatttacaactcagcgcttccaagtgcaggagtcgagggctggactattcggtgtcgcacgctt
+>seq 131 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+tcttgctagcggggaatagattataaacgagaaccgcaacataccttattacttgcgtaaccgacccaatgtacagatcatatggcgccgacacgagctt
+>seq 132 | Implanted String: gaccatac | Motif for Entire Set: gatcatat
+ctgctcttataagttactgttgatgaccatactatgatatagatacaccggctacgagctgataaatggtggatacgtctgtcagtcgcagatacaccga
+>seq 133 | Implanted String: gaacatat | Motif for Entire Set: gatcatat
+accactgcgacaagatcagatgtgaaccggtcagccaaccacacggagaacatatttgaatgtagctgacccacatacggagggcacataccggccgaaa
+>seq 134 | Implanted String: aatcagat | Motif for Entire Set: gatcatat
+tgtggggagtagttcctgcgcacctagtcctgctggctcgtagggctatgcgattcgggagggtaacgtaacgtagagttctgcagtacccaatcagatg
+>seq 135 | Implanted String: gatcactt | Motif for Entire Set: gatcatat
+gagggatacgatgttggtcagatataaagcgaccgccagatggtagtaacactagatcacttttaagagatgtttttatattcaaggacactactgaatc
+>seq 136 | Implanted String: gattatat | Motif for Entire Set: gatcatat
+caaacagacatcgactgtaaagcagtctgtacgcatcgattatattgggacgagcgtaacgaatcttatcagccaacgaaagtcttcttccatgtcgtcc
+>seq 137 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+acagtcagggcgacctgttagaaccaacaagttgagatgggagcgaggacttcactttgatcatattcgcactcgagcgcatactatgtccagttataga
+>seq 138 | Implanted String: gagcatat | Motif for Entire Set: gatcatat
+ctgtctgtacgacgttattaattgcatttctagatagtattattgtgttctttgctaggcgctcactcgtacgagcatatataatggagaactggctgat
+>seq 139 | Implanted String: gatgacat | Motif for Entire Set: gatcatat
+atacctatgcgatgacatgctggattcgctggcctgcgttgttccttaaggtctactactctcttcccccgatatcgccaggcagtgcaaagtgactaac
+>seq 140 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+ggaatggctgtggctgtgctagtatccctttatctcctgatcatatccgtccattttgcggaaggtccagcaggcggttatagctgggaaagttccaaat
+>seq 141 | Implanted String: gctcctat | Motif for Entire Set: gatcatat
+cagacccgctcctatgttggcatggagtacgcatagtgaccggaccgttgtagatagttcgtggataggcgagataaagagggctaaatacggacaggct
+>seq 142 | Implanted String: gctcatag | Motif for Entire Set: gatcatat
+ggtaggtcgactctagaaaatcaaagccccataatttaaacgttcgctcatagcttatccacgctacctcgaagtcgacacaactacgaaagcaataagg
+>seq 143 | Implanted String: tatcatag | Motif for Entire Set: gatcatat
+tcgagttatcatagaaaagcttttgataggcaccacccgactactataccgatgtagagttgaaagtaactccgtttagggaacgtgggctcgggcgcca
+>seq 144 | Implanted String: gctcatat | Motif for Entire Set: gatcatat
+caatatcacagcgattcctgtatagcttacatccgtattcatcgccacgcccagcgctcatattaggagactcgcactcgtactccttctattatcaggt
+>seq 145 | Implanted String: gatcattt | Motif for Entire Set: gatcatat
+ggtgctagtctccgcccacgggtgtcaaaagtacggaagtcacaacttgaaacaaattgtcgcgtacaccacgagccttcgcacgttgagtcgatcattt
+>seq 146 | Implanted String: gataatat | Motif for Entire Set: gatcatat
+actacggcaaggcagcaggggtacaatgatgcaatacttaatgctatatggatgcgtacattattttgtaagataatatgggtgcggtccttgtttccgc
+>seq 147 | Implanted String: gaccttat | Motif for Entire Set: gatcatat
+atgaagcggagggatgctagaggagtacgaacatttgacgatgccgaccttattctttgggggcgaagtcggcggtctgcgcaagctcgacggtcactga
+>seq 148 | Implanted String: gatcattt | Motif for Entire Set: gatcatat
+cctaattaccctacccgatgcgtttacgacacgctgatgatggaagattcgaggctaatcgggtttcgaatgcacctaggtacggtaatgtgatcattta
+>seq 149 | Implanted String: gatagtat | Motif for Entire Set: gatcatat
+cctctcaccgcctgcgacttcgcgcccttccttttctattaataggatcacgtctttcgcaacaaccgcggccgagaagtgatagtatttgtccaggacc
+>seq 150 | Implanted String: gattatat | Motif for Entire Set: gatcatat
+aagaccgatgcggataaggttatggagtgaattcgatgctgattatatgcttatcggaagatatcaatggagattcatccgtgtaatctctccatcagtg
+>seq 151 | Implanted String: gatcacaa | Motif for Entire Set: gatcatat
+tgctcaatcattcaggtggtacgctcagatcatccctctctgtggttggatcacaacttaaggcgggtatcatcgcgcgcgccgcagcctaggtagatgc
+>seq 152 | Implanted String: gattctat | Motif for Entire Set: gatcatat
+atcccggcatataacgctgcactctgccgttggtgaattggagcagccaaaggcacagacacatacgaagattctatgccgatttcaccggaagggcacc
+>seq 153 | Implanted String: gatgatat | Motif for Entire Set: gatcatat
+taactattgagatgatatccggtatcgtcgccggtggcttcctaattggcatcaccccctgggtcattctcaagctaaggtcatcgttcactatatatca
+>seq 154 | Implanted String: catcttat | Motif for Entire Set: gatcatat
+gaattggatgtccacaaccaccgaatgacgaacctgtttaacgtcggtccgtcgcatcttattaagggcaaccggtagtgcaagtcctaatgcctctaat
+>seq 155 | Implanted String: gatcagct | Motif for Entire Set: gatcatat
+cagtccacagactgagagatcacccatctgtcatggggttcacttcaggctgcgtcggatcagctcgccagaatgcgtaatcggacattaaaaatacaat
+>seq 156 | Implanted String: gatcatga | Motif for Entire Set: gatcatat
+tggcaaccggtgatcatgatacttatttccgtccctagatgttctgaccacacgtcagggtcgatctccgtggaaattgtaaagctcggattgattcgac
+>seq 157 | Implanted String: gaacatat | Motif for Entire Set: gatcatat
+ttcccgacgacggaaggcgctagcgacgagcaggttgcatttaaaggggcgctagaaggcacagcagaacatatatataccaacgcgccatcgatgtaaa
+>seq 158 | Implanted String: gatcttat | Motif for Entire Set: gatcatat
+gcttacaggaccactgtggagactttgcgctcactttgctgggtagacagtcgtaatgttgctgatcttatagcgacactagccaagatactgacttgtt
+>seq 159 | Implanted String: tatcatat | Motif for Entire Set: gatcatat
+cgtgtcagaataccctcccgtacgttccgtgtgaaattgtattcccatctacaatatcatatgtgcatgcagagcaaatttggtccaatatcaacgtggc
+>seq 160 | Implanted String: catcacat | Motif for Entire Set: gatcatat
+tccctacctaaagcagatagccgaggataaaacccgcacttatatctccatcttgtctgcgaaactcagccgcactagggcatcacatatctaccatgtg
+>seq 161 | Implanted String: tatcatag | Motif for Entire Set: gatcatat
+tagagtgtaactactcaaaaacctggcccgcttctgccaatatcataggtaaatctaagtgattagtatgggtatcccgcggtccgtccaacatgttccc
+>seq 162 | Implanted String: gatcatag | Motif for Entire Set: gatcatat
+actgaatcatcaggatcatagggacggcgttgaagatctccgatagttccttagctagtttattccgagatccagtcgtcaccgctgatatgagaaacga
+>seq 163 | Implanted String: gaccataa | Motif for Entire Set: gatcatat
+ttgagtcctgcggccgaccccggatcattgccattgaacgtttcgaagcctaaacagggccgacctaacacctggaataaggtcagaccataagcctcac
+>seq 164 | Implanted String: aatcagat | Motif for Entire Set: gatcatat
+ggcgcgtctgtagatccaaggaacagcggaaggcagttattctaaaatcagatagctcggccttgcttggagcgtattgtgcaaacgtgacattaaaatc
+>seq 165 | Implanted String: gagcatat | Motif for Entire Set: gatcatat
+cgctttgacccggctttccttcgggcatcggatgcataaactttcttacccgaggatctaggggacttacattagcacgctgctggagcatatttagtcc
+>seq 166 | Implanted String: gatcatct | Motif for Entire Set: gatcatat
+ttagccatacagtgattgcgcgtgcccgccatcgcgatctagactcgaagcgtaaaattaactggggttcatgcgatcatctcaggtagccctaggtgca
+>seq 167 | Implanted String: gatcgtac | Motif for Entire Set: gatcatat
+ggtcctacccggcgggattcagtaactacttgtatcgttgattcgcagagcaccgatcgtacccacccaaaactcacggcgacgccaccgggtcaagtca
+>seq 168 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+tgaatcaaccatacacactctaatatgaaggcgtccaaccgtctccgtcaagatgttgacacttgagcactgtaatagatcatatcattctgatttatca
+>seq 169 | Implanted String: gctcatat | Motif for Entire Set: gatcatat
+gtactgcatcctccctcttgctattctagtgcggccttcttaggcttacgcggtcactatgccccttgtgacggctcatataggttgacccggtagcgcc
+>seq 170 | Implanted String: gctcatat | Motif for Entire Set: gatcatat
+gagcagacttcttaaggagtctagagtgaacgatccgcgactgcgcccacgtgcgcgacccccactcgtcggtcgacacccatgccgcgtcgctcatatc
+>seq 171 | Implanted String: gatcgaat | Motif for Entire Set: gatcatat
+cgatctgtccacggcaagtataaacaactagacctttcgatcgaatcagagtcccgcgacaattaacatagaggattgccacgtaggtgtggtcgcatcc
+>seq 172 | Implanted String: ggtcatgt | Motif for Entire Set: gatcatat
+gggtggtcatgtagcattgcggggcacagccatagttaatagcaaccggcctgtaaccacatttcccactcacagtgaagagcggtccgagtatgaaagc
+>seq 173 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+attgctcactcggctgccattggtctttgtgtgatcatatcccagcagcagcgttgaacgattcaggtccaccccgacgtgatcagcccgcccaaaagcc
+>seq 174 | Implanted String: gtccatat | Motif for Entire Set: gatcatat
+tcctggccttgacaacttaccctgctctcaccctgtgacatctagcgcgtggtctgtgcagatgaattgcgtccatatagatagcctgtttagtgaagta
+>seq 175 | Implanted String: gatcataa | Motif for Entire Set: gatcatat
+catttgtatgctggtgcggctccagaataggaaacgcgttaggtagcagctactcctggtctcccacaatcttaagacactagatcataaactgatcgga
+>seq 176 | Implanted String: tgtcatat | Motif for Entire Set: gatcatat
+gatgaatcacgcgttctgtcatatatgcctacaccgtcatagccggtatactaaggcaaaatattaaaccatacaaatacagtacctcggcattggggag
+>seq 177 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+tatccggaatcatggtgaaagtggcgaaggctgggatcatatcgtcagtccgtcttgcagcgcagctatccatacgtccgctggtccgtatgtcctatta
+>seq 178 | Implanted String: gatgatag | Motif for Entire Set: gatcatat
+gtttctcccagaatagattggtccaagagccttggtccagaaccgttctattaacgtgggatctacgctagtgatgattctggattcagatgatagcagg
+>seq 179 | Implanted String: gatcatgt | Motif for Entire Set: gatcatat
+tgtcctgggcgatcatgttaagacacgcgtataccaataagagcgtgtctggtacttacatgggtgtgcatggttcgggagaactcataaaattccatta
+>seq 180 | Implanted String: tatcatat | Motif for Entire Set: gatcatat
+ggggaagtaggcagtgatttggatctcagaatatgcacacctgtgacgagatcgatcatgaacagatatcatattaactaataggtacctagacttgcaa
+>seq 181 | Implanted String: gatcttat | Motif for Entire Set: gatcatat
+gatcttatgacaactccgcgggcctaaactctttgactcatacgaccgccgagcttcagagcatggtaccgcaacaccttttacccaaatgatgaaaacg
+>seq 182 | Implanted String: gataatat | Motif for Entire Set: gatcatat
+cattggagacaaacgcctataggatgacccgggctcgtgtggacaccatcatatagatgattaaaagtacttcagggccacccgggataatattctacta
+>seq 183 | Implanted String: gatcctat | Motif for Entire Set: gatcatat
+gttttaagaccccaaagaaaaaataagccttttcaggtgcgccgcctctcctgtggtgattgctgatcctatcgacagtcctccttagacgggttacccc
+>seq 184 | Implanted String: catcatat | Motif for Entire Set: gatcatat
+gctccggcccatcatatttgaaaaaccttggtctacttacttgtaataagacgtctggtccgcagctcacatttgcgaattctgaagcggaggtcggata
+>seq 185 | Implanted String: gctcctat | Motif for Entire Set: gatcatat
+gaagcacctagaaagaggtggcacccttcggactaatcatgcgctgtcctaattgctcctattatcttggcgtgaccccaacagcgtgcaagacaacaat
+>seq 186 | Implanted String: gatgctat | Motif for Entire Set: gatcatat
+attgtcgatgctattgcacgaacggtcatagttagtgggcgggctgcaacctcatcgaaagtcagtgccgaagtaagtgggtattaattagctcctatga
+>seq 187 | Implanted String: gataatag | Motif for Entire Set: gatcatat
+atctattaaatctgggcgttggtcctcccttctcacggcgtcaaatctgcccgcgccgcgttcgagcgtggtaggtctaagatagataatagagttagta
+>seq 188 | Implanted String: cgtcatat | Motif for Entire Set: gatcatat
+tgcggggtgccacatgacctctcgaatgaggttgattatttgttaaagactgactgaagtgtgggtcagcacgattacaacacctccgtcatatcgaagg
+>seq 189 | Implanted String: ggtcaaat | Motif for Entire Set: gatcatat
+gactgtgatttatggcaatggcttacttggtcaaatagtggctggcgacgataggatagggctcatgcggcaaaaaccgtccatgtgtgtctgctgaggc
+>seq 190 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+acccgccgtgccgattgcatagttagagtggtctctgactcatctattaattccgaattagatgagacacccagagttatctgggatcatatcgagtttc
+>seq 191 | Implanted String: gatcgtct | Motif for Entire Set: gatcatat
+aagactcgggttcaataatgttgcagagtcaaaagtaatccgaagtgggtatgatcgtctgagccgccgttggggcctcgtcatctcatggagggcccgt
+>seq 192 | Implanted String: gctcatac | Motif for Entire Set: gatcatat
+tagacagtgtctggctcatacctgtctcatggcttcgcatctagctacctttagtagggctcgcatcggtaaccacgctgagagtaactaacatttggga
+>seq 193 | Implanted String: gatcttat | Motif for Entire Set: gatcatat
+cgtatacaagccttccagctgtgcggcatcgcttggcctgtttcctgtatagtatctatactgatcttatccagggagatattcccatactctgcagcag
+>seq 194 | Implanted String: gatcataa | Motif for Entire Set: gatcatat
+tttgtacggttgggcgccacaggatcataaaagtctaacgatcctaagccgtactcgtcgaaggggacttacacgttttcggtatgcgacaaaaacttgc
+>seq 195 | Implanted String: gaacatac | Motif for Entire Set: gatcatat
+ggttgatatagtagcagcctttcatttcttgagatatttagaggtccttatatggagtgcctttaaacaagaacatacaggcgtatgattggcgcccgac
+>seq 196 | Implanted String: gatcatag | Motif for Entire Set: gatcatat
+ggttcggtgaaaggaccggtggcggaataaaagttcagggaagcgggcgcgaccaagtgatcatagctttaacctaagatctaaaggaaaagatctagct
+>seq 197 | Implanted String: gatcaaat | Motif for Entire Set: gatcatat
+tctacacagctggtcaccgcgtagcttagtctccggtatgaagggatcaaatcagcagcagactactgccaggccctatgtgacgctcataatatagtac
+>seq 198 | Implanted String: gatcctat | Motif for Entire Set: gatcatat
+acgacgtagatcctatcccatgtgttagttgtaagactgtcgttgtctgcatacaggtagctgaaagctatttcaagccatcgcgcttagaatttaccga
+>seq 199 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+tcgtcacggagaggcgcgtggtttctgccttcgcttacgtcggaatagttgttcttgtggatcatattggggacagattaccctacacggtctaattccc
+>seq 200 | Implanted String: aatcatat | Motif for Entire Set: gatcatat
+tcttctcgcacaccgttagtcttttagttgttaggaatctgcacaacaaacctagcttgaccgactccaaatcatatacggaacgtagaatacctgacgc
+>seq 201 | Implanted String: gcttatat | Motif for Entire Set: gatcatat
+tcgtacggacatggtccagatatccacaggacaatacgccaaatgtcgcttatatgattcagaaaaggagggcaccgctgcgcgattaatcaaaagatgg
+>seq 202 | Implanted String: ggtcttat | Motif for Entire Set: gatcatat
+aattactggcacgcagcagagattattgagtatgcgggaggctgctggtcttatggcaaaactatgaggggcgtcctgtctgacggatatcaactgcatg
+>seq 203 | Implanted String: gaacatat | Motif for Entire Set: gatcatat
+caatgcagacgctcgaagttcgggcgcgcccacaaaactagaaggaactagtcggagtaatgaacatatgagaaggagcctgtgtaaatcaattcgtcca
+>seq 204 | Implanted String: tattatat | Motif for Entire Set: gatcatat
+attttggatcaccgagatagctgtgaattctctctgataccatagcgtgtcattcgaggttattatatactatccgaaaacgctagcgagatttaatcct
+>seq 205 | Implanted String: gatcatgt | Motif for Entire Set: gatcatat
+ctgtcggcaagtaccttggtccggcattggacgatcatgtgtactcatcgccacacgctcttagtacccgcgggttgtagagacactggtattatcgtcc
+>seq 206 | Implanted String: gatcgtct | Motif for Entire Set: gatcatat
+atggccgggcacaaaccgcacacacgtgtccgataaaggctcccctcaggctggtgttactaaccaagatcgtctgccccacttgaagtagcgcgcgctg
+>seq 207 | Implanted String: tatcatat | Motif for Entire Set: gatcatat
+aagtgcgttgttcaataagcacgccacgatatgcaccctgggctatttgcaacgcgcccggtatcatattcctggatcacggttaggtaggacccacaca
+>seq 208 | Implanted String: gttcagat | Motif for Entire Set: gatcatat
+actgggtaaggaaaaggaatcgctctgtcaagttctccggagtcaaattagaggagtgggtgacttgtggagacttgcgttcagatgcggctctcccgcc
+>seq 209 | Implanted String: gatgatgt | Motif for Entire Set: gatcatat
+tggatgtggcgtcaatgcgagtatgatccatacgttgcttcgtcgactggttggcatttgatgatgtgggcccatcacaagtgctccacggcgagtccgg
+>seq 210 | Implanted String: gatcctat | Motif for Entire Set: gatcatat
+taaacgtctccgctattgctaagatcatgtctgattggcattttggacgtctggggtctaaatcgtaagtgggcgatttcgatcctatggcgtttcacta
+>seq 211 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+gggtcttaaaaatacttggtttcaactccttggttgacgtaggggtaggcggtcgctatttgatcatattcaaatttcacgattcaacaagccaaccgaa
+>seq 212 | Implanted String: gatcataa | Motif for Entire Set: gatcatat
+aatattcctaaaaaacactaaggctcaggcacccgccgtccggacgatcataactgggccggggtggaacgatgagtttttaatgcgtaggggtcccggt
+>seq 213 | Implanted String: gatcatgt | Motif for Entire Set: gatcatat
+cgcgattaccagatcatacagggctcaagttgctggttgttcgttgcttcttatcgatataactttgagggatcatgtcggaagtgcctgcgacccatct
+>seq 214 | Implanted String: gaaaatat | Motif for Entire Set: gatcatat
+cgtgccgaataaagggaggacgagatcggatagccgtgtagtcggttcagaaaatatgcgcctgaagatgtacggatcctgagcaacctcgctaagcgcc
+>seq 215 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+ctcgctaattcggtgtgcgttcattccttctctggtctggtaggaaactgacgagcctctcatgggtcaaatttaatcttgatcatatgatctctaaaca
+>seq 216 | Implanted String: tatcatct | Motif for Entire Set: gatcatat
+cgccactcggggtctatcttgaacccaggcccacgtgttcataactcaacagaacgtttgcgcgtcttaagcccccgtatcatctgagacgcaatcatcg
+>seq 217 | Implanted String: ggtcataa | Motif for Entire Set: gatcatat
+tcaagacccgctatcagacaagcccataagtggtcggcaacctataagcttatactaatttgttagtggtcataaggtagctgttaaaatgaagggcaaa
+>seq 218 | Implanted String: gctcagat | Motif for Entire Set: gatcatat
+ctttggtgttagccggtgcatagattccctcgatcatatcttctaccaatctatcaaagactcgtacaggatatcagtgttctccgttcagctcagattc
+>seq 219 | Implanted String: aatcatct | Motif for Entire Set: gatcatat
+ccaggtctaaatagttataagagtgtgtaacttaatcatctatgaaacgataaaattagaggaagcgatcatccccgaagacccgccttagcggtgtgtc
+>seq 220 | Implanted String: aatcatat | Motif for Entire Set: gatcatat
+tccgtactggcacagacccgagcgaggcccagaggggtttaagtaactttcgttggctacataaatgagcaagggccttaatcatattccgcgtcctaca
+>seq 221 | Implanted String: cagcatat | Motif for Entire Set: gatcatat
+cgatgaagaggccttgttgaatacagcatccctttgggaatgaaagcttgttatcaacccagcatattgctatggcgaccccggacattaatactttggc
+>seq 222 | Implanted String: gaccatat | Motif for Entire Set: gatcatat
+tccatagacttgtgcatcttaacttgtattctcatttttgcgaccatatgtggccagcttatacattgattttagatcgccattcccgcaagcagatgct
+>seq 223 | Implanted String: ggtcatgt | Motif for Entire Set: gatcatat
+ggctcactgggacacttagctccctactcccaagggggctaacgcttagcctggtcatgtaacgcacgcacgaggggtgaaaatgggcttcaggccaaaa
+>seq 224 | Implanted String: gatcgaat | Motif for Entire Set: gatcatat
+gtgatcgaatgccacagtagtccgagtagagggtgtctgagccctcggcacaggaataacatgcattccgcaagggcaaacgaacgatccctctacttag
+>seq 225 | Implanted String: caccatat | Motif for Entire Set: gatcatat
+gttgctacttgagacccggggggctgaggaagttacaattaaggagcaacactaggaatggtatagtagtagagtctcctgtaacccaccatatacagtg
+>seq 226 | Implanted String: taacatat | Motif for Entire Set: gatcatat
+ttgtgcactatagagcagtcgataggggcgtgctctctccctaacatatgtagcttcccgagtaggtggcgcacactgtctccggggaagaccgaatccg
+>seq 227 | Implanted String: gataatat | Motif for Entire Set: gatcatat
+gctgagcggcagcaaggttgatcatctgcagacacgtgttagataatatggcactcgccacgagcataggggccataagcttatcggaacgtgtatgcgc
+>seq 228 | Implanted String: gaacacat | Motif for Entire Set: gatcatat
+gggagtccatccctgccgcctcgagcagcgtctcttggccatgtgcattcatattatgggctaatagaacacatagggaagatcgcaaatactgggctga
+>seq 229 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+ctgattacgacccaggtaataaaaaaaaactcacataaaaggttcgacctcgatttgcggatataattgaggcgacgatcatatgctacccctgcaatta
+>seq 230 | Implanted String: gctcatgt | Motif for Entire Set: gatcatat
+gctcatgttgatcccgaagcagcactaccactattctgcgcccccccggaaattctatgtctgagcgcgtgagcgcccggcgcgagccgctgaccccgcc
+>seq 231 | Implanted String: gaccatat | Motif for Entire Set: gatcatat
+ggttgcaaagcgggaactgtatgcagctggacagcgaaaatcgctgaacctggccacattgacttctctatcctatggtccatgcgaatgaccatatctg
+>seq 232 | Implanted String: gaacgtat | Motif for Entire Set: gatcatat
+taagtgctactcaagaaatccctagccgccgatgagacaggggtgggatggtgtcaggtgccagaacgtatctaacacccacagcaacaggttgtcgaaa
+>seq 233 | Implanted String: tatcatat | Motif for Entire Set: gatcatat
+attctttgaaagaagtcaataacggttcttatcatatgcagtgtccttgtgccggtggagtcgtatctaaggcggtcgtagggaaaatgttcgtggccct
+>seq 234 | Implanted String: gaccatat | Motif for Entire Set: gatcatat
+aacatgattagatcataactccggccgttggtgatgactaaaaaatacctggcaggctggggctaaaattgccgagagcatccgaacgaccatatcagcc
+>seq 235 | Implanted String: gatcataa | Motif for Entire Set: gatcatat
+tgtgtcacatgtgtaaaggctcctcactcccattacgtaaggtcgtgatatactcgtgataacctagtcgcagttactgttctcgatcataaacgggaag
+>seq 236 | Implanted String: gatcagct | Motif for Entire Set: gatcatat
+ggcgtaaaatcagctttgatcagctttttccaatccctagtcaggtagtgtcgattggagtaattgcttagcgagaaagtggggccctctcagttctgtc
+>seq 237 | Implanted String: gaccatat | Motif for Entire Set: gatcatat
+ccctgcctcagtcggagaccatatagagttgtcaccaaatcaggcaggcaaagaaagctgggggtagagaacagctagagtagcgaacagtagatgaaga
+>seq 238 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+ggtcgctgggtgcaatttgactaccgagggttgatgatcatatctcactgagaaatttcagagcgaaggaggggcgtttgctctctgcgttccgactcgg
+>seq 239 | Implanted String: aatcatat | Motif for Entire Set: gatcatat
+aaggttgtccacgtgcaaaaacctgggacccggattgccatagcactagaatcatatttgagtgctagacttatcgatctgtcgcaggacgtataagtat
+>seq 240 | Implanted String: gaacatat | Motif for Entire Set: gatcatat
+gatggggataaaggctgggtcccgtcggaacatatgtctttgcgtggcaattccccggcgttggtttactgtccggctagcgttcaagacgtagggtgcg
+>seq 241 | Implanted String: gatcatcc | Motif for Entire Set: gatcatat
+ctcattcggtaaattacaccgcggcaggcttggggccaaatgcaagagcgtctctccaaggatgacatggatcatccattacctcctaccgaaccgtcta
+>seq 242 | Implanted String: gaacctat | Motif for Entire Set: gatcatat
+cctatgactgatcgggcctccatgaacctattagccattatagtctagcgatagcatggtcgcactctcaggggccattgggctagacacgtttccatta
+>seq 243 | Implanted String: gatcagat | Motif for Entire Set: gatcatat
+ttagatgcgaattccatatacggctcgtgtcatcatctacttaagttaacgcgttatgatcagataaacgccgccgtggatctactacttctagcggtct
+>seq 244 | Implanted String: gaacatat | Motif for Entire Set: gatcatat
+cggagcgattccgtcggccctatatttctcagcggcttacccgcaagggtggcctgcttatcaaatggtacatacgtagtaaggcctagaacatattaag
+>seq 245 | Implanted String: gatcttat | Motif for Entire Set: gatcatat
+ggaccatgaacgtattggaaataggtagagattttcagcgacaattttgaaaggactacgacgtgcttctccacgatcccagtagcccgcgatcttatcc
+>seq 246 | Implanted String: gcttatat | Motif for Entire Set: gatcatat
+atagacaagcagagttttagatcaattcacatgagatcggcagaactggatttcacatgtactgtactgcttatatcgagagggccccaaggtgctccat
+>seq 247 | Implanted String: gatcacgt | Motif for Entire Set: gatcatat
+gggagcatactcgttgcaccgaaaagtgtttcccctcgaagatcacgttgggccgctatccgaaggcctatcattcgcgtgaatgtctgcggcctgccgc
+>seq 248 | Implanted String: gatcaaat | Motif for Entire Set: gatcatat
+acctttagcaacgccgcgaaatcgtagatcaaatccggaggcaggaactgcagagtcgttggcacagagtcattatactcgacttactcctcgcagacga
+>seq 249 | Implanted String: gataattt | Motif for Entire Set: gatcatat
+gctatgcttgccttagtcgctggcgagttcattactctctgcaactgcaacgtcgcgataatttgtggaacacttcccaggtctcggtcgcacagacatg
+>seq 250 | Implanted String: aatcatat | Motif for Entire Set: gatcatat
+tcccatctaggttcaggcccacggtggttaccatttgtacgtgtatcggccctttggaataatcatataggtcattctcagcctcagccttttaaggtga
+>seq 251 | Implanted String: gatctgat | Motif for Entire Set: gatcatat
+atgcgatttatgtcgcaagtccggatacacaatctcacatgatctgattaaacagcgagctcctacgatacgtcttagcttaaaattgtcagatttgaaa
+>seq 252 | Implanted String: ggtcatat | Motif for Entire Set: gatcatat
+gaagaattaggtacactcattgtgatctgtataatgggaaaactatccgtcgtccgccatgaagtatgtgctcggcctcggtcatatcggtcccgtgggg
+>seq 253 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+ataaatcgacagcatcagacccgtgcacaaaatctagtggcctatccaccgtatgagccgatccgaatcctagcgttgaacatcgcccgatcatataccg
+>seq 254 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+gtcctgcgtcgcctgtccgctggaaatgtaaggatcatatcattggattgcttgcgacctggttaatttatagatacgtaagaagccgtgccgggtggac
+>seq 255 | Implanted String: gatcgtaa | Motif for Entire Set: gatcatat
+ttcctacctctatgtatggtttggacctagctcgatcgtaatagataaggctacatatataaggatactggacctccttatatcagtaggaggcccagtg
+>seq 256 | Implanted String: gatcacag | Motif for Entire Set: gatcatat
+aaatttatacatgtcccttaatcgacaatataattgtcctcaacatcttgatcacagttagcctacagcatcttatgcggctaaatttgcgagcgggcga
+>seq 257 | Implanted String: gaacatat | Motif for Entire Set: gatcatat
+agaattggaggacgcttagaacatatttctcattatgaataagctcgtggattagctgggctataggtctccgattaaaatggacggccatgtctgcgat
+>seq 258 | Implanted String: gcgcatat | Motif for Entire Set: gatcatat
+gacgtgatcccctagcctacgtacggatagtgctggtaatcgttgaaccgtgtgcgcatatgccaggagaaaaagctttagtgtaccgatatctctgcgg
+>seq 259 | Implanted String: gatcattt | Motif for Entire Set: gatcatat
+agcgattgaaccatctcattctgatcatttgcaccacctagtgcccctaagatatgtttagacgaactatgcaagagtcgtgatactcaggctttaaatg
+>seq 260 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+gttagtgatcatatacccacagtttgtcgtgctcggcagctcgtagatcgactagtcaacggcggtagactcagcaacgtagccaactgcagccttgtat
+>seq 261 | Implanted String: gctcatct | Motif for Entire Set: gatcatat
+gtcgtcccgagaacttcctatctggagtcggtaaggctgcggctcatcttcccattgcagcacccgtgctccccgattcacagctccactgctataaagt
+>seq 262 | Implanted String: gagcatac | Motif for Entire Set: gatcatat
+gttcgctaactctgagcatactttgttgtggcactcaacacccactcctctacatccgagtaaccggcgcccataccgtgctgttgcactactgaggcgt
+>seq 263 | Implanted String: gatcatga | Motif for Entire Set: gatcatat
+tgatcatgaactaggattatgactaggaaccggagcgtcgtagatatggattgcgcggcatcagtagctgaaatgtaattaacggcagagtgggacacgt
+>seq 264 | Implanted String: gatcaaat | Motif for Entire Set: gatcatat
+gagctatgcaaaagatgcgtccgctgaattagggcgaagaacacggtgcctattcgtcgcggatcaaattgtgaagggaggtaaggccatctagagcgca
+>seq 265 | Implanted String: ggtcatat | Motif for Entire Set: gatcatat
+cgcgtttcgtgcaattgcgcaaaccacttcaagatggactggtcatatttaattacggctgtatgctcgctgccgttttacgagtgatgtggctgttcga
+>seq 266 | Implanted String: aatcagat | Motif for Entire Set: gatcatat
+gctaccctttgtgaacgggatcgccctacttttgatccaatcagattgactgaattggatctcgagttggacttgatccaatacggacctcgctttggtt
+>seq 267 | Implanted String: gagcagat | Motif for Entire Set: gatcatat
+ataactgaatggtgaatttgaggcagctatgttctacgagcagatgggagccggcgtggatccccttcgccagcgctctggtgttcgtacgtgcaatcaa
+>seq 268 | Implanted String: gagcatat | Motif for Entire Set: gatcatat
+agtagcggacgagcatatatgtacgccatgtacgacggtacaaaggcacgggcgcccaaaattctggctaaaggtggagcgaaaggcgggacgattggca
+>seq 269 | Implanted String: agtcatat | Motif for Entire Set: gatcatat
+gtgggtcggccccgatcaattcgaatagcctcgtagtgcgccctatatcgacgcttgattcacagccagtcatataagtgaccaccgctttttttcaagt
+>seq 270 | Implanted String: gctcctat | Motif for Entire Set: gatcatat
+cgtctctctctctaagcccaagcctcctcttctctcactcattctgctcctatatggggggctgcattataaaatccgtgtcgacatagggcctgagcta
+>seq 271 | Implanted String: gatcgtat | Motif for Entire Set: gatcatat
+gggtctttgggccgctttctttacttatacagggctcaaaggtccgatcgtatgttacttatagacaccagtgcatgcaggctctcttttgactcctctc
+>seq 272 | Implanted String: ggtcatat | Motif for Entire Set: gatcatat
+caaacacccttcatcgtctcgaccaattaccacggtgtaggtcatatcaacgcgctgtaaacacatctcctctgttgggtgaatagggcaaccgtaaccg
+>seq 273 | Implanted String: gatcataa | Motif for Entire Set: gatcatat
+ggaccctagcgcgcgcagagtgttgcgagctgctcgtccttttgctttcgatgacacctctcgatgcgaggatcataagctggagattggcacgcgcatt
+>seq 274 | Implanted String: catcacat | Motif for Entire Set: gatcatat
+cgcaacctagacttggatgtgcttaacgtctgtaatctgacgggctctgtggcatcacatagcgagataaactccgcgagcagctttggcgctgaccgtc
+>seq 275 | Implanted String: gatcatct | Motif for Entire Set: gatcatat
+aaccccgaatggcggcgcctacgggttatacggtgagaaaaaatcttggccatgtgatcatctcgtgtacgttctgcaatgttacagcgtcggagcattg
+>seq 276 | Implanted String: gatcatca | Motif for Entire Set: gatcatat
+aaaatcgggcaaggacgcgtcgacgcaacgaagaaataggtggcctcgcatctacgcagcctcaggctatctggatgtgtcgatcatcaacccggcgtag
+>seq 277 | Implanted String: tatcatct | Motif for Entire Set: gatcatat
+gctatgactggtagtaacgtccacgcacgtcacgtctggcctgagaggctttaggcttatagcaatacgatttatcatctatcgaggaaggagaaaaggg
+>seq 278 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+accgggggagtttccgcgcgcaggaatggtgttctttcagatcatatgtttttcctgttgagcccgccggtcctcgaacagatggtatgtttagcgcaac
+>seq 279 | Implanted String: gaacatat | Motif for Entire Set: gatcatat
+tatctgaacatatgacagctttaaagtgacgcgggccgccccagtccgtgatgagcagtacgctaagcggttcagcacatactcctcttcatgttgataa
+>seq 280 | Implanted String: gctcgtat | Motif for Entire Set: gatcatat
+aattgtcgcggtcgctgttagtacctctctgacgactccaatctgctcgtattcacctatccgagcgccttgaaatctatcggggacataccgcttgagt
+>seq 281 | Implanted String: gagcatat | Motif for Entire Set: gatcatat
+caacgaaccacgcttagctaacaggtattctaggtctcaaggtccctgagcatatgtccaccggcccctggatggccttcgtcacctacacacatatcat
+>seq 282 | Implanted String: gatcatac | Motif for Entire Set: gatcatat
+ctcaatgatcatacaaattcaagagtgagggctaggcaaaaggggcatcgacttgcccatgagtagagatcgatgtatcccgctgatctttagtacaatg
+>seq 283 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+cgagtcttgggactccaaagacgcctgggtataacttcccgttattcgtttcaggatcatatcccataatacttgtacgcatgcgccgggagctgctgca
+>seq 284 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+tgatcatatgtcacacatttagctgtcaccttaactcataagatagcgaagatcgccgtttaaggcagttttagagaccatggggaaagtaatcctttat
+>seq 285 | Implanted String: gatcatac | Motif for Entire Set: gatcatat
+gagattagtagcgttagatgcatacttaagatcatactgcaagatgatgttataaggtcctggaatggaaagtaccctagcgtgattatatgcaaaagtt
+>seq 286 | Implanted String: gttcatag | Motif for Entire Set: gatcatat
+acagtaggtcctacccagtttgttgctaacaagaaagtcaaccaatcagaattgagtgggttcataggatgtgcagccctggtaagctcctatttttcag
+>seq 287 | Implanted String: gaacatat | Motif for Entire Set: gatcatat
+ggcaggaattccgcctgcagagcgcacgaattttcttggaaaaggcgttgttagacagcgcgcctagccagtctcattctatacctggcgaacatatgga
+>seq 288 | Implanted String: catcatgt | Motif for Entire Set: gatcatat
+aggacgtggtcgtcagggtcgtcacagcactacccgcatgacggtgtgtgttgcttatctaactttggacactgtaaccatcatgtttcggttcagtcgc
+>seq 289 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+ccgtactgagtcgttggaccctcccatgcccgacgaaacagataactgcgatcatatcgtatcttacaacgcgagtctaacctccttggtcaacaggccg
+>seq 290 | Implanted String: tatcatct | Motif for Entire Set: gatcatat
+tactggatcctcaggcaaggaggtgggctcccgtattatcactccgatagcgaatgttatattttatatcatctattactgacaatcccgaacaaagatt
+>seq 291 | Implanted String: gattatat | Motif for Entire Set: gatcatat
+catttactctgattatatgtgctcgtaacgctataacggagcgtcgaatgtaacgcagtcgattttgctgctcggtgcggtcggatcattccggcaacag
+>seq 292 | Implanted String: gttcttat | Motif for Entire Set: gatcatat
+gatccgtctttggtcgggtagtggggttggtatggttcttatagacctggatagtagcaaagaagcccgcatcacgccagagacgaaccggaggtctttt
+>seq 293 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+ttgtaatatttgaacgggcctccttacactaaaactaccacgaccggggtctatactgaacctaacattttaactagccgattagtgagatcatatttcg
+>seq 294 | Implanted String: gatcggat | Motif for Entire Set: gatcatat
+gtctagatctatactctgttagatcggataagcgataggccggattttgcacgcgcgcgtacccttcgagtaaaccactctaaccgtgacctagaggaag
+>seq 295 | Implanted String: gattgtat | Motif for Entire Set: gatcatat
+cgaactgcggctggagagttattctatcgtgtgattgtatttcctctaacgcaaatctcaggagggaacccgttgacgaaacagtcacggactatctgga
+>seq 296 | Implanted String: tatcagat | Motif for Entire Set: gatcatat
+aaatatcagatgattgagaagtgactgccttactttacacctactggagctatggagctgcccacggatcgcgtcctagttgctcggaggggcaaactta
+>seq 297 | Implanted String: gaagatat | Motif for Entire Set: gatcatat
+gccattgaacccattgttcctcgagagcaaagtttagacgcattcgaagatattagaattaacaatacatttgtcgctcccccctgcgtgctgtgactac
+>seq 298 | Implanted String: tatcttat | Motif for Entire Set: gatcatat
+gactagatcgtccgactcctgatatcttattcaccgcgtgcatgacaggtcggcctgctaagttacgtctatttgggtatcctgtgtcgttttccccttg
+>seq 299 | Implanted String: tatcatgt | Motif for Entire Set: gatcatat
+gtaatagcgtccagtatcagccagcctatcatgtcaacccaaaaccgtcggaagtccgtaaacccaaagacttccgaaaggatgggatgtttccagccgg
+>seq 300 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+tatgcatagtcctagatcatataggtagattggcgggcttttcgaaatcacccgtttaatgttcgctggccactgtggaaaattggcccttaccgtgtcg
+>seq 301 | Implanted String: gatcctat | Motif for Entire Set: gatcatat
+gtcagctaggttgatgctgcagtagcagatagatcttcatggtgtccttgttggctgttcgttagcaaacaggtccggcccagctgatcctatcaagggg
+>seq 302 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+gatcatatccctgtaggtcggatcgcgtttaaaggttcgcttaatggtcctgaatgaataagttctacggtcactacgctctgtggtgcactgggagtgg
+>seq 303 | Implanted String: gatcttat | Motif for Entire Set: gatcatat
+attcccacgtgcgcagggcatgttactaaaagtcgcgtgccacaaccctttgggcatcacgtggcacagatcttatgctccggttgtcgatagtagtccg
+>seq 304 | Implanted String: gatcatct | Motif for Entire Set: gatcatat
+caagcagacggtgttgctaccaggtatcacttgagggtacttatggatcatctcattcacttgctggttgtgccatctccttgccagaaagaggtggtgg
+>seq 305 | Implanted String: gatcattt | Motif for Entire Set: gatcatat
+tagaagttggtctgtcacgggcacctaggtctcatgatcatttgctgacaaccggcgtagaacttcgaggtatatgcaaccacatatgactaggagcacc
+>seq 306 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+gcaggaaaggcagtagaccccctgggactcaaagatccattaagcagatgccttgatcatattcctatctaggttggacgtcaccttgctctgaagatcc
+>seq 307 | Implanted String: gatcatca | Motif for Entire Set: gatcatat
+actaatgtttcatcgaagtatgacttgtcaacctgcatgcatagggtcaatacatgttggctgattgccgaatgatccacgatcatcacttatgcttagt
+>seq 308 | Implanted String: gtttatat | Motif for Entire Set: gatcatat
+ttgcaagatacaatttctcggagtgatgcgatgccgcgcttgtttatattattggaattcaatgattaatgcttcggtggatgttctgcagagcaatatt
+>seq 309 | Implanted String: catcatct | Motif for Entire Set: gatcatat
+gagctaactaaggtggatcccttacgactgtcggagggctgtatgttcacgccgtggtgaaattccggcgtctacatcatcttctcacacacagacggat
+>seq 310 | Implanted String: gattattt | Motif for Entire Set: gatcatat
+atctaacagattatttcgaagcccttagtagcctgtcgggttagcgacctatccgctagaaactgagacgtcgccattatataccacgccggacaacagt
+>seq 311 | Implanted String: gttcatat | Motif for Entire Set: gatcatat
+acttaccacaaactgctagagatacctaggagtctcaggcgcagcggataccaccagtacgcagcgacatattgttcatatacacggctatataatagca
+>seq 312 | Implanted String: gattttat | Motif for Entire Set: gatcatat
+cccaaaacagcctcacgtgtattagtgggagtcgattttatctggacagagcaccaggcgtgtgaggcctagtcagaacagactgaaggcttaccttcca
+>seq 313 | Implanted String: gcccatat | Motif for Entire Set: gatcatat
+tgaattggcgcccatatctgcgaactttatagcctgtgacgttctgtgtcttgcgtgcatcatcgtttatcggtctctgccagacggagaatcaactggc
+>seq 314 | Implanted String: gctcttat | Motif for Entire Set: gatcatat
+gctcttatgtactttttgctgcgcatcgatgcaatcaaccacaccgatcctcttgactgtgtatataaagccaacccttacattccgtactcctaaccac
+>seq 315 | Implanted String: gctcataa | Motif for Entire Set: gatcatat
+cgctcataaagtaagaccggttcgtcccggcttagttaaccctatcgtcctacaaaacatctcggaatcggtatgttttaaccggatctcacgatttaat
+>seq 316 | Implanted String: gaacatac | Motif for Entire Set: gatcatat
+caggggagcacacaaaagcatgtctcctgtcaatcggccctcgcggaacatacccgagcattactatctagccctataataagcagcgatgaagtataag
+>seq 317 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+tgcccatggagctccagaatataaaggctcctttctttgggatcatatatcaagcatatggttgaaagtagaggtagggatagcagttgattaagggctt
+>seq 318 | Implanted String: gatcttct | Motif for Entire Set: gatcatat
+gtttatgtggcccgccattaccctctagcgcagactcagaggacctgcctcgagggaacgggatgcggccccgcctcagatcttctacgctgatagacgg
+>seq 319 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+tcttgtcccgtgcgcttccgataactagctatatatggacaaaggtgatcatattgattcctaacaatatggtttgttatctaggagcacctgacgcaag
+>seq 320 | Implanted String: gatcatac | Motif for Entire Set: gatcatat
+cggtctgaactgccctaggaaacacatcccttgaggatcatacgcaatgatcctaagtattttcggttgcgtgagctttccttgcgatctagataaccga
+>seq 321 | Implanted String: ggtcatgt | Motif for Entire Set: gatcatat
+ccgaatcagaaaccacttcaccgtcatggcttttgaccgtgacgcttcaaacacaaagggagaggtcatgttcgggttgccttgttagacaactaccaac
+>seq 322 | Implanted String: ggtcatat | Motif for Entire Set: gatcatat
+tgcgatcttctaggtctctcggagactttacgggcaatttaatcagtacttcggagttcggggtcatatagaaatgtgtcttcccggctcaaaagcccag
+>seq 323 | Implanted String: cataatat | Motif for Entire Set: gatcatat
+acgtcatgaagcagcattattcatagggggttagatagtcggggtggaaacaagaatgcatttggaatctattcataatatgctgatctgtcgcctggtt
+>seq 324 | Implanted String: gataagat | Motif for Entire Set: gatcatat
+gatcgacatggcaaaaacgagtcgcggccattctcagttgataagatactattatccgctggggtggaaccactgctagggactagcttgcgcttcacgc
+>seq 325 | Implanted String: gatccttt | Motif for Entire Set: gatcatat
+ctttccctcccagatcgagaaggcatgatcctttgtagccttctggcaggttccgacaagacatacccagccagattagggctggtcaagatcagcgatc
+>seq 326 | Implanted String: tatcatat | Motif for Entire Set: gatcatat
+agaggcaaacgtcacctaccgctcgaacggaaggtgttatatcatatgcagaccccatcgtaagctccttctgaccggggctcttgacggtagtataaaa
+>seq 327 | Implanted String: gaccatct | Motif for Entire Set: gatcatat
+tgggatcccggttatccatggagggtcctgttacgtccgatgaccatctcgagcacgatccggggggaatgaaaaagtgatgggcgcctgtcttcgtaat
+>seq 328 | Implanted String: gtccatat | Motif for Entire Set: gatcatat
+caccggtccatatcgccgattcttcatttacgagctttggataacgcctccgttacattcctatgtcaaaaacgggaggacccaagacctcatcgaatgt
+>seq 329 | Implanted String: tatcaaat | Motif for Entire Set: gatcatat
+ctatacttcattgatgtgaatctcattgacaagaacatattgtcaaccctttccggcaaagattaagaaggatttttttcagccgaacctatcaaatgct
+>seq 330 | Implanted String: gatctgat | Motif for Entire Set: gatcatat
+atcagctaacacgataccgctaatgcttaaatggacgatcgtcaactctgatctgatgtcccaacagggcgtcatagctgccggaagtcatactacgggg
+>seq 331 | Implanted String: gctcaaat | Motif for Entire Set: gatcatat
+cctttctaagaggccatgatcacggctcaaatacagagtagatcaaaagaacgatcatacaatccgcctgaaacgagcgcataatcgtaagctgccgctt
+>seq 332 | Implanted String: caccatat | Motif for Entire Set: gatcatat
+gcacttgggacaccatatatctcacctgaagcgaaattgagttctcggcgttcgagcgcaacgagcatctcagggatcacagcgatggtgtcttcgcaag
+>seq 333 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+ttgagggatcatatgtttctaccatgggcaaccttcggacgaatgcgaacgaggtatggacatgcggctgtgaagcgtaaggatgtaatctgagactaac
+>seq 334 | Implanted String: gatcctaa | Motif for Entire Set: gatcatat
+agatcctaacggccggcttgccccgctttcgccaaacaggccggagattaatcctcctaaaagacggtatcgcttccccatattttatacctcactgtat
+>seq 335 | Implanted String: gatcataa | Motif for Entire Set: gatcatat
+cgctaactttaagttaagatcataacatgctctcgcgtatcggggcaatttgcctccaactgaccataaaaggtctgccaattagtttccgctcttgctt
+>seq 336 | Implanted String: gaacacat | Motif for Entire Set: gatcatat
+acgtattggtgatccgtgaacattacctccgcggggctaatacgtctctcgtgaacacatcgacttcttactctgaacgagcgactcaccaaggaagcct
+>seq 337 | Implanted String: gctcatag | Motif for Entire Set: gatcatat
+gagctaggcgaatgttggcttagccactccgttggcgcgtaactacagatgtgaaacgctggcctgctgcgttgtgtccgtactccagggctcatagtgc
+>seq 338 | Implanted String: gatcaaac | Motif for Entire Set: gatcatat
+caggatcaaactcaggcttacgtactcgggcgtgaacagtgatgcgcttcgggttcaaatgggcttagtccccatacgcgggcacccctcattacttcgc
+>seq 339 | Implanted String: tatgatat | Motif for Entire Set: gatcatat
+tcgtgtacggcagtagctcggctctgagcagtcgtttcccctgagaatggcatattatatctctacgtataaaatatgatatagggccgagaaaactagg
+>seq 340 | Implanted String: gatgatat | Motif for Entire Set: gatcatat
+attcggaggagagcaagagtcgccctatgggctctgtcggggttatacctgactgggtacggttgatgatataatcgtagtactgtaactagcaaataat
+>seq 341 | Implanted String: actcatat | Motif for Entire Set: gatcatat
+tgcatggctaaaggcctatgcactcatatgcttcagggtaactgggcactaatcttaagagtaagcgttccacgaaggactaccacgctcatcaaagatg
+>seq 342 | Implanted String: gagcaaat | Motif for Entire Set: gatcatat
+gcatcttagtgccccgggaagaaatcacaaaccaaccgttgccttaccgagggactgcctacagacttgagacgtgctatcgagcaaattggacttgacc
+>seq 343 | Implanted String: gaccatat | Motif for Entire Set: gatcatat
+atcaggagccacttcccacatggcttctgggggcggagtatgcgttccggtttgaccatattcgtaaggacagggataccgcagaacgcaatgaggtagt
+>seq 344 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+tgagtggcggaggctccgtcttccgaagatactaggccactgcgaaatttaactagagggcatgtcgctaaggcaaggatgatcatatagggaaggacta
+>seq 345 | Implanted String: gattatat | Motif for Entire Set: gatcatat
+gagcgtcccggccgtgttatcttggcaatcggacaccatgccaattaaaggacccttacatgagcgcagcacgctacgcattagggattatatatacaag
+>seq 346 | Implanted String: gagcatat | Motif for Entire Set: gatcatat
+tttcgattactttacttgtaaaccatcgaccgctaggggaacttcgaaccaagcttggggtcccggtgcttgttgagcatatcattgtgattcaaacgta
+>seq 347 | Implanted String: gagcatat | Motif for Entire Set: gatcatat
+ggtcagcgatactagtcggtagcgtgcaaataccgggcccatctaagcggagcatatcccactcgcactctcggacccagagtacgccggcggacctggt
+>seq 348 | Implanted String: catcatct | Motif for Entire Set: gatcatat
+agcagcttcattccatcatctcaataaggtttacacctacacagacgatatgcttacagttaagcttcactgctatgcagcgctgaagggtcttagccta
+>seq 349 | Implanted String: ggtcagat | Motif for Entire Set: gatcatat
+gtacttaaggggtcagatcggtgatgcgtacacgcttaatgatatttcgtatcaatactcttagttacaaatcatatcagtcgaataatagcataacgtc
+>seq 350 | Implanted String: gatcttat | Motif for Entire Set: gatcatat
+agtaagatctatgatcttataaaatctggaccattcgcggtttttggcacaaaccggtgctatagtagtggtatgtagctatttaccgaggtttttagtt
+>seq 351 | Implanted String: caccatat | Motif for Entire Set: gatcatat
+aaatactgctctatccaccaattctccacaccccaatcccctagcccacgcaactctgcacagttcgtcgtaattgatagacgatatcaacaccatatat
+>seq 352 | Implanted String: gattataa | Motif for Entire Set: gatcatat
+cgtcttcacagttagtcgcggcgtatgttccatgacgagtgctatgaaggaccggatgatcaacaacactctgcctcatggcgcgattataaggcaggct
+>seq 353 | Implanted String: tatcatag | Motif for Entire Set: gatcatat
+gtcatgatgcgttctcccatctttcaatatcatagaacacagcaatggctaaaccctagctggccccggactcacgtaagggtttatcggtggtctacat
+>seq 354 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+ttgagagctcctcaccgaataacagttacgaagagatcatatcgattgaaggaactagtcctgggctagacccttgattccggcgagcaatgcaattgtc
+>seq 355 | Implanted String: gctcgtat | Motif for Entire Set: gatcatat
+tggacttactatagtcaaacgaccatcacccgaggtctatgctcggagctcgtatcctaagcgtggcttggccgcgactcatccgacgagctaagaagat
+>seq 356 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+accagagggcaccagatgatcgaaactctttagcccaggcgatcatatccctaggaggcggccgaccatcactgatctcatgtaggtctagggctgcgtc
+>seq 357 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+cgttctttaaccggatcatatagatggcacagtcgcacatgtgctgtgcgccgataccgatggcgggaaactgttgaacgtgatagtgactttcgaacga
+>seq 358 | Implanted String: aatcatat | Motif for Entire Set: gatcatat
+cccagagctaatggtacgaatcatatagacctttaacgggaaatagagaataagccacactatttcggttgacacgggtgtttttgcactgtaaattgtc
+>seq 359 | Implanted String: gaacataa | Motif for Entire Set: gatcatat
+gttcttagttttccagagctccgggtgggaacctatgaatggtggtagggacagcttgctagactcggctcgtataggaacataaaggtccattctttcg
+>seq 360 | Implanted String: gacgatat | Motif for Entire Set: gatcatat
+cgacgatattgcggcggttcatcgggcacgtggtgtggatgttttagattaatccaatacgaactctctacgctccgaaggctccggaaactctgatccc
+>seq 361 | Implanted String: gattctat | Motif for Entire Set: gatcatat
+ggatcagattctatctagacagatatgcgcatcacaactgtaaatgtagatggctggagattctgcttcgtcgtgtaattcgcaataggcgggtctaaaa
+>seq 362 | Implanted String: gctcatat | Motif for Entire Set: gatcatat
+aacctgcccgacccggctcatattcttactgatacgtaaaggccgataatcaagagccctctagatttaaatttaaggttagccgttctttggaagctgc
+>seq 363 | Implanted String: ggtgatat | Motif for Entire Set: gatcatat
+gtaagacgtttatatgtgaaggactgcacttgaattgccaaagcaaatagtgagcacaagtttttagatcattggccaacgggtgatatagtcgtcattt
+>seq 364 | Implanted String: gactatat | Motif for Entire Set: gatcatat
+tgtcggtggcactcacggtggcccgtgcctagacatcgctcttcctgtgggggcggtagtgggactggagggctaggcgactatatgcaccgggtactga
+>seq 365 | Implanted String: gatcattt | Motif for Entire Set: gatcatat
+taacagacgaagagtccgtagtgtacatttcctccttgctgattggggtgatcattttgtgcgtccagtcgaagaccgttaccggctcaacgatgacgct
+>seq 366 | Implanted String: gatcgtaa | Motif for Entire Set: gatcatat
+gccgagtgcttacgccggacgggatcgtaatcggtatgttacatgggcagcggggctacgtcataagttttaggatatcagatcccacgcgacgcggcta
+>seq 367 | Implanted String: catcatct | Motif for Entire Set: gatcatat
+catcatctcaatttaagggcagccgagcgcgcttttctcgtcaagctctccgtgcagggacgctgttaccttcggcagtccatggtaagcaccgctgcca
+>seq 368 | Implanted String: gatcatca | Motif for Entire Set: gatcatat
+gagctgggtagcatctacatgaccgcgcaaacgatcatcagtggaagcataaactagtctgatcatacgtcgcgctgctcatcgtctattgtacctgacc
+>seq 369 | Implanted String: gaacatac | Motif for Entire Set: gatcatat
+ggtaacatgaatggcctacgactggtcgtagcggggaccgaacatccccaagtatttatgagcacttggcgcagtgattgcggaacatactgcaacccgg
+>seq 370 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+atttcaatgttaaccctgattaggaagactgatcataacaccggatcatatgggaactatctaatcgcatgctcatgcgcgatatctaataagataatcc
+>seq 371 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+gtgaataacccgtgacaaccgaagacgtggtgcaaggtcttgcgaatggatcatatttattccaatatcgctaataaatcctaagtttgtgttagaaccg
+>seq 372 | Implanted String: ggtcgtat | Motif for Entire Set: gatcatat
+atgacgtaatctattaaccgacataattatggtcgtatcgtgcccctcttcccagtaattggaggtggcttccagcttcagccggtgaaagtgactggca
+>seq 373 | Implanted String: gatcagct | Motif for Entire Set: gatcatat
+gtcgatggatggaggggacgaaaaagttgtaggcgttcgctaaatctcggctataatagcctacgcgatcagctctccctctcatgggggcaagcggagg
+>seq 374 | Implanted String: gatcatac | Motif for Entire Set: gatcatat
+acgcactattgaatacaaaatagttgagttacagtggattcgtgtgatcatactctcgttaatgtcaggtcatttaccccagtcacccatagtgttgggg
+>seq 375 | Implanted String: catcatat | Motif for Entire Set: gatcatat
+ctatgcaatagaatgagtgaacggtgtactctaacatcgacgcgccatcatatcgtttccgtgcagctgggccacaatggccggccaactactcgagcac
+>seq 376 | Implanted String: gatcacac | Motif for Entire Set: gatcatat
+gcaaagcggcacgtgatctggcaataatagttcggatcacacgacggcgcatgagacacgggcttatgtgtctgataaacccaggccgctcaggcagact
+>seq 377 | Implanted String: catcatac | Motif for Entire Set: gatcatat
+cttagagtagcgtacttctatgacacttggtgagagggggtgtttacaatgcattttaagtgcagccctcctaagataacggtgtcagcatcatactacg
+>seq 378 | Implanted String: tatcttat | Motif for Entire Set: gatcatat
+gtatcttatctttgttcagccccctcacgagaaagggtccggccttttcacaggcattgatacaagcatcgtgtacaatgcgtagccacgttccgacggc
+>seq 379 | Implanted String: gatgatat | Motif for Entire Set: gatcatat
+ggcgcaaaatgacgctgagaaggcaccgattgatgatatgaggtctacaatctaactccagcgctttctgggtactctgccaagcaaatcatctgaaagg
+>seq 380 | Implanted String: gtccatat | Motif for Entire Set: gatcatat
+ggtcacttacagtcgtccatatttccacatctgcatcgccatttgatccagacggactgtctcccctaacattaccacgtttacgaagggtcagcttact
+>seq 381 | Implanted String: ggtcattt | Motif for Entire Set: gatcatat
+gagtcacgtgggcctacattaaggcgaaagcgactatgtcatgggacgttcgcgggcctatcggaagaggctaataactcgacgggagcctggtcatttg
+>seq 382 | Implanted String: gagcattt | Motif for Entire Set: gatcatat
+taacgcggagagtctgcagagcatttagctttccatacacatgcgagagcttaatagtactatcgctgacctggagcccgtcctggggaggtggcaacgt
+>seq 383 | Implanted String: gatcacat | Motif for Entire Set: gatcatat
+gggatggaggaggtggttctcgggcctcgggatcacattgcctcggtgcgtcgcatctcagacgagatgcctcgaccgggtctggtggacttgatgaaat
+>seq 384 | Implanted String: gctcatat | Motif for Entire Set: gatcatat
+gtcggtggagcagctcatatcgctcggtggcgcacaacctcttacaattgctgccacaagatacattagaacgttacgccgttcgtaacggcgggtatga
+>seq 385 | Implanted String: gatcctat | Motif for Entire Set: gatcatat
+ctatctacaaacaccatagtcacggacagcaagcccaccgccctcaaggggtatatgagtcgtagcgcatggatcctatgatgacttgggtaacacggtt
+>seq 386 | Implanted String: catcatat | Motif for Entire Set: gatcatat
+cgcagccatcaatgaaggttaatacatcatatcaaataaaacgcgcatccgctccggtgtgggtctatcatccgcagttcgacaggaaccaaagatcatt
+>seq 387 | Implanted String: gatcataa | Motif for Entire Set: gatcatat
+aaggctgatttattactgaggactgtactgaacagatcataacttaccattggtctcacagtggtgtctgtgtccctagttcctataaaaatcatgttaa
+>seq 388 | Implanted String: gatgatat | Motif for Entire Set: gatcatat
+gtcccctaagcctgtaaagatcgctactgataaggccgtaatttgatgatataaacatacgcgggtctctcgaaagagctgctttctaattatctgattt
+>seq 389 | Implanted String: gatgatat | Motif for Entire Set: gatcatat
+gctagaagctggcggtcgatgatataagagtgctactttgagaattcccagagacgtgaggctgctggaattccggtcctactgaattcgtcagaacgag
+>seq 390 | Implanted String: tttcatat | Motif for Entire Set: gatcatat
+atctttgacatgccgggtcttttaagggaggaaccggtacaaatccgacaactctccaaggtaggggatactcaagctatttggtttcatattgtaacac
+>seq 391 | Implanted String: tatcatat | Motif for Entire Set: gatcatat
+gacggtatcatatcccccaggccttgagaacaccctttagtggcaacttggaataccacatttttaaccggctagaatggagcgagaagaaaacatcgat
+>seq 392 | Implanted String: gatcttat | Motif for Entire Set: gatcatat
+gacagcggaaagtccagtgcattaaaagaactcttaattcgtgatctgccggtgctccccccgtgcggatcttataccaaacagctgaaaatggccaata
+>seq 393 | Implanted String: tatcatct | Motif for Entire Set: gatcatat
+tatcatctcgaattcctatgcctatacaggctattgatgacacggttttagaagaaccattataaaaaggtcagtatcgcgttaagtatatcggtcttgt
+>seq 394 | Implanted String: gatcgtat | Motif for Entire Set: gatcatat
+taggtgcactgccgtaatgcgtctaactgtttccgaactcacgctcctgagatcgtattgtgcagggtggctgtgcggatgcgtcattgtgtgagttgta
+>seq 395 | Implanted String: gatcaaat | Motif for Entire Set: gatcatat
+tgccaaggggttccggcgtacgcctggctattcggatcaaatcacgacaagcccggccacgctagcccttccgtggaaaaacattagcacgtccacagaa
+>seq 396 | Implanted String: aatcatct | Motif for Entire Set: gatcatat
+tagctcaacagcaagccgacccatccttaggcataatcatcttcaccaatgtattcatgattgaggcgtcacaccgtacactttacgcagttggagcctc
+>seq 397 | Implanted String: gatcatct | Motif for Entire Set: gatcatat
+cattcgcctattccgattgtaacgacactaatacgacttatagacgtagcgtgccagacttagataggattcaaggaacacgcgcctgcgatcatcttaa
+>seq 398 | Implanted String: gatgacat | Motif for Entire Set: gatcatat
+ctggtccttcctggtcccctccttggtgaacaattagcttcgagaaacctccatcgttcaagatgacatactgtgaggctgttggtcctggcgcgtaaga
+>seq 399 | Implanted String: gaacattt | Motif for Entire Set: gatcatat
+aggtctttcgccgggcggacgacgtgacggtccatattttagaaaagtgtttcgtggggatagaacattttgaacgggcaatacggcgttttcggccaac
+>seq 400 | Implanted String: gattatat | Motif for Entire Set: gatcatat
+cgcagatctgcagttcttagctgtactgatgattatgaagtttcaagcgggcaatcatgtagttgctggatggattatatcgaaccgcggtgccccgttc
+>seq 401 | Implanted String: gatcagaa | Motif for Entire Set: gatcatat
+tataaatgccagattgaccttcgcgctccgcagataagggcgcacttcctttggatgaagatcagaaggcaatgggagacgaccacgtagtacctcagag
+>seq 402 | Implanted String: gagcatct | Motif for Entire Set: gatcatat
+agatacgaggtcttatgtgagcatctaaggagggacaggtccccgatgggttcagatgcgtttctgaatacttggaacaataggtacgaaccctattcta
+>seq 403 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+aattcaggttcatctggagactggcattacggccagaatcctcatagggagaacggggggctgccgcccggatcaaatcatggagctaggggatcatata
+>seq 404 | Implanted String: gaccattt | Motif for Entire Set: gatcatat
+aactaccatggagtgtctcaagaccattttacgaccggcgaaaacatggtaatgtgctgccttcactcgatgtcgcacgagcacataaatacgtatctgg
+>seq 405 | Implanted String: tataatat | Motif for Entire Set: gatcatat
+gcacgtcagtataatatacggcttttacatgaagagcgccgtcccacttgggactcattccgaatgcactaagagcacgcccagctgacaacaacagaat
+>seq 406 | Implanted String: gaaaatat | Motif for Entire Set: gatcatat
+tcagcctgcatagttgagggcgacaaggaaaatatgaatctcagtgaaggtggctgtgtatctttgtggtagtaagaagaactgcgctactgcgcgatgg
+>seq 407 | Implanted String: gatcttat | Motif for Entire Set: gatcatat
+gaaggtacgtacagatcttattcgctgtggaacgcattctcgtgctagcctagaggctcgtgagaaatcgtcacataggttgagaggcgcgcgccttact
+>seq 408 | Implanted String: gttcatct | Motif for Entire Set: gatcatat
+acgaatgagggttggtttcgaggccagtaaggcaattgggtcgattgcagtgcactgggaccctcgctatttttcagttcatctccgactgattccgaag
+>seq 409 | Implanted String: gatcgtat | Motif for Entire Set: gatcatat
+tgaccgcagacccactcagatcgtataggcgaacaatcgaacctggtcaagaaggcctcatgggacgggtttcaggcttaataaattgtcatgaatcccg
+>seq 410 | Implanted String: gattattt | Motif for Entire Set: gatcatat
+cgtaatcgattatttctgcgtctcccagtcgaagtggtatcacgcggtaaactcctgcctgtgttctcgactggtcttgtatgatttgcaaggtttgcta
+>seq 411 | Implanted String: gatcaaat | Motif for Entire Set: gatcatat
+aataacgggagattggaggagatcaaatacggggaatgccctgtcgcaccctagtttttttgtactgaccacttatatgcaggtgcgggtgctctagctc
+>seq 412 | Implanted String: ggtgatat | Motif for Entire Set: gatcatat
+ggtttgaaaataatttgagcggaccggtatggtaccaagcttagaacgtatagttttttcggtaggggtgatataactacatatggggctgggatttctt
+>seq 413 | Implanted String: tatcatat | Motif for Entire Set: gatcatat
+tgcacggagtgcaagcgaattcccaccggcttggatattcgtcccgacgggatcgtctctatcatatggctgaagttgtttgccggattcacgggagccc
+>seq 414 | Implanted String: gatcaaat | Motif for Entire Set: gatcatat
+ggcgaaatctctcactgctacgaatgtcgcttataacacctttgaattagcgcaccagtggcacttttcgacgcgggtaccgagggagagatcaaatcga
+>seq 415 | Implanted String: gcgcatat | Motif for Entire Set: gatcatat
+tgcgcatataaaacctgatcaccgttcgtctctcagcctcactttctcgctactgaaatgaccacatatagttgagtatttccttctcccgccgatgaac
+>seq 416 | Implanted String: gatgaaat | Motif for Entire Set: gatcatat
+ataatcgcttcgtgatgggtgcccgagaggaccgttacacatattacaccgtcggggtggcctggatgaaatatactccctttccgtgtgaccgcatgag
+>seq 417 | Implanted String: gatccaat | Motif for Entire Set: gatcatat
+tgatccaataacccacatcttacagacagctaggttttctcagcgttcgagagtaggctataaacgatatacctggctatttgccatcaaaccccctgac
+>seq 418 | Implanted String: gatcaaat | Motif for Entire Set: gatcatat
+atgacaaaccagcgtaatacacttataaatatgatttaccggtactagctagaacgatcaaatccgggttgccttaaatactagattccctcaaaccttg
+>seq 419 | Implanted String: catcgtat | Motif for Entire Set: gatcatat
+aaacgctgctcattagagcaatccatcgtatatctaatatgataaggcaattcgactccctaattgcacgggtaatagcacattgttactagtaatggct
+>seq 420 | Implanted String: tatcatat | Motif for Entire Set: gatcatat
+tcattgagctaaatacacgttctgagagccggagttcacacccggtaattatcagcagtggccatcctctaccgtgcgctatttgcagggggtatcatat
+>seq 421 | Implanted String: gatgctat | Motif for Entire Set: gatcatat
+aaacaataaggcggcgcctctttcgccccaaaataccagaattcaagatgatgctatcaatggctccacgtaaccgtcccatacgattatatctcgctta
+>seq 422 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+gggagagcgaaggaaatctgattcgccctggcattactctctgagcgggccggctcagctcgcgaattggtgagggcgctcactgtggaagatcatattt
+>seq 423 | Implanted String: aatcagat | Motif for Entire Set: gatcatat
+gtgggcgatgtactcgatgtacctacatgtgcaacatttaagtcccacctaatcatcttattgtaatcagattacggctatctaacaccataacacaatc
+>seq 424 | Implanted String: gatcagct | Motif for Entire Set: gatcatat
+gagcattgcggaaaagggatcagcttgcttccgaaccttgtgagtgacctcaaatcctaactcccgtaggttcataagcccggacatcactcgcctcacg
+>seq 425 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+tggatcgtgtgctgctctctatgtggattaatctttagataggtgtgctcgcgacatctacggctccctcgcgaaagcaactacaagcccgatcatatac
+>seq 426 | Implanted String: aatcatat | Motif for Entire Set: gatcatat
+aatcatatttagaaaactatgtcccctacaattgccaacgataactacggagtctgctccagtggagcgccgcataagcgtcagattgatcggtagcact
+>seq 427 | Implanted String: catcatat | Motif for Entire Set: gatcatat
+gcatcatattcacggaaagatgggacgttgtaccgcgggctagtctactcccgccacttgtatagggcttcacccgcattgctatttctctgaatgacgg
+>seq 428 | Implanted String: gatcagat | Motif for Entire Set: gatcatat
+gttcctgtacctcacgttggaaatgtcaagatcagatcaatctagcacgccgagcagcgcaaagccgaataaaaggctcagacggttctccaatatatta
+>seq 429 | Implanted String: gatgatat | Motif for Entire Set: gatcatat
+agagccgatcacgtatatgttgcgtcatttgggagcggatgatatttatgcgatcaggtataccggacatggccgttgcttttgatctcattatgcggcg
+>seq 430 | Implanted String: cattatat | Motif for Entire Set: gatcatat
+actcggctctggtaattaaatttcttcgatgatactttacacgggtacgcaatgagtgtaccgggcggactcgtagcattatatctcaagtcacccccat
+>seq 431 | Implanted String: gagaatat | Motif for Entire Set: gatcatat
+gccaaccgcatgtcgagcctgccaaatgggaagatatagtaaaaatacgacccagtaagagaatatcttcgctcttggtaattatacaatcgatcctgct
+>seq 432 | Implanted String: gatcataa | Motif for Entire Set: gatcatat
+ctggctttccactcttttctttgacgcgaaccatatgtaaggaaatgctccaaaaaccgttaacggcgtctgatcataactccagctggaaaattttgtg
+>seq 433 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+tagctgatcatatagtggccaaccacatgcggatcccaagtgacgcgaaccatctatgggcttcgcgcagggatgtagtggccatctgatctaatcgttc
+>seq 434 | Implanted String: gatccgat | Motif for Entire Set: gatcatat
+gggcacctttaacgaccgcaagatcaatcagcgcattcatgcataatacatctacttgttaccctaggtgcaggattgaaccttatgtgatccgatcttt
+>seq 435 | Implanted String: gatcatct | Motif for Entire Set: gatcatat
+ggatagttgaaatccatgccgctcttgcgatcatctgggggaggcagaggacgcgtaccgaatcacccgtttacttctcaaggaagtgcaggccctcatt
+>seq 436 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+cgacctcctggccgcccgggggcgactgcacgatgcagtcagtttatgagaaagcgtagtctgatcatatcggtgacgagaggaatgattggggcgttcg
+>seq 437 | Implanted String: gatcctgt | Motif for Entire Set: gatcatat
+gggattcggaccgcgtcttagcctgcgttagcagggatcctgttgcattgtaggatgcagtccccccgggacacgcgaccatgtctaccccggtttaact
+>seq 438 | Implanted String: catcatat | Motif for Entire Set: gatcatat
+cagggtatcgaaatcgaccatcatataggaggatctacatctattgttcacctgacctcatcttgagcgatacggcgcgattttgatctgtatattacgt
+>seq 439 | Implanted String: gatgatat | Motif for Entire Set: gatcatat
+tgacggatacgggatgatataggatatggcagcatctaatgctgggttatgattccggtcgaccctatatagatcaccttagtttcattgctcttcgttt
+>seq 440 | Implanted String: aatcatat | Motif for Entire Set: gatcatat
+tggatgggtctaaatcatattgagggtagggaacggcaagcttttctacgtcttgacagcttgattccgcaggtgtcaccgcgtcgctcaggctggttgc
+>seq 441 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+ctgctaactgcttcaattaacgtgcgggtgaggggaaaatatccgcttaggggacgtcgatcatatatctaagccaatcagatttccaggcgcggagatt
+>seq 442 | Implanted String: gatcatag | Motif for Entire Set: gatcatat
+accagtctggatagggacttcactaggtgagggcttttcccgtgcatactctaaagtgatcatagctaggacgtgacaggcaaatttcctgttcttactg
+>seq 443 | Implanted String: gaccatgt | Motif for Entire Set: gatcatat
+tcagcttcactgtgagtaatcttgggtgtggtctatcgtagctcgagggacataaacttccagggaccatgtcaccgtttatgacttggcgggttaagag
+>seq 444 | Implanted String: gatcataa | Motif for Entire Set: gatcatat
+gcctctcaggagggttgaattgctccaccgagtgttgaccgactcccactaggcgatcataatcggtctacaaccgagatgacggccatgtttcccagtc
+>seq 445 | Implanted String: gatcttat | Motif for Entire Set: gatcatat
+acttgaccttttctctcgctagttgatcaaatattctacaagatcttatcggtgcatacggccccttaaacccggacgaagtgaaatcgcccggaggttt
+>seq 446 | Implanted String: gatcatct | Motif for Entire Set: gatcatat
+atcctggatcatctgcatccatccgttcccgtcccctgtcactctccgtgatgactgacttcacccgttctgcatggaaataccccctcgtagcatcttt
+>seq 447 | Implanted String: catcatat | Motif for Entire Set: gatcatat
+ggctagcttccaccccggcaaacgtcatgcagtcattcacccacgccgcaatgacacggggccagtttgcttggaacgtgacatcatataggtgttgaat
+>seq 448 | Implanted String: ggtcatat | Motif for Entire Set: gatcatat
+ggctctattgtaccatgctgtgttcttcgattgagtccgctccatatggtcatatgctgggcaaacctttcaaatgtgttcggcggcgtcttgagcgtcg
+>seq 449 | Implanted String: gatcatac | Motif for Entire Set: gatcatat
+cgaaaggaccaggcccaaccctactggcgtgggaaatatggtagcgtatgtaatcctgattccgctgtgacaaagatcatacgcaccgatttatcatcac
+>seq 450 | Implanted String: gattatct | Motif for Entire Set: gatcatat
+ccgcgaggacgatctcgagcgattcctgtccatttgaaaatccaaaaccacgagattatctaattgctagcacttccgatttggagttctatgtcgaaaa
+>seq 451 | Implanted String: cttcatat | Motif for Entire Set: gatcatat
+gcgagcgtccaacatggcttcatatcagtgcgtcctctacgaactgtatggtacacgtgtggttatacgtagtagatccaagaaacactctgcgtgggca
+>seq 452 | Implanted String: aatcatat | Motif for Entire Set: gatcatat
+ccctgctaggcgcctcatcagagggcaatcatatccgagtatagtattatcagttaaggcatgtttaacttctggtcccgtgatgcgttgctatcgatcg
+>seq 453 | Implanted String: gatcgtat | Motif for Entire Set: gatcatat
+cttgactaggaggactgtcaagatgtatatacataggacggtggtgctgccctcaagcgtagatcgtattgcggcctatagacgtgagctctgtatgact
+>seq 454 | Implanted String: gtttatat | Motif for Entire Set: gatcatat
+ggctaggacgcggttcaagtgtatccatcgtggtttatattaggagacgagagagatattggttgcgcgctcatagtgccccttagcctaaccctctcgg
+>seq 455 | Implanted String: gctcatat | Motif for Entire Set: gatcatat
+agtctacacgtcaaccccgagtcatgacgagcagtttacgaaagaagacaccttgaccatcttcgtactctatgcattggctcatattgtagaaaactct
+>seq 456 | Implanted String: gatcaaat | Motif for Entire Set: gatcatat
+attgacgcgtcgacctactttcataaggaaatgatcaaatctgcacgggggaatgctggttgtgcaaaggcgcgtagtacctgcaaaaatggccttcccg
+>seq 457 | Implanted String: gatcagat | Motif for Entire Set: gatcatat
+gcgatcagataccttgaggatgcagaatccttcttagcgcgagcaggggaatgcatcgcgttagctttcatactttacttgttagagcgaaatgttcgtg
+>seq 458 | Implanted String: aatcagat | Motif for Entire Set: gatcatat
+tgatatttaccttagcaaatcagatttgaacaggttggccgttgtactagacgttaagtgccttcagcagttgcggcgacaatagagatagcctaccaag
+>seq 459 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+cattcagactgcccttgtctgagaatctctgacatgaccacagcgccgtttccgcggaatcgatcatatctgcttgctgttggtcacactagcgacatca
+>seq 460 | Implanted String: aatcatat | Motif for Entire Set: gatcatat
+ggggggtagcaacaacaaacaccgtacccaatcatatcgtgatatagcttggtttgtcatagggttgggcctgaacgcgttcatcattgctcgaaaaacc
+>seq 461 | Implanted String: gatcttat | Motif for Entire Set: gatcatat
+ccgctgggcgagcagatcttatccaaccgctcggattcaaacattttactaggggaagatgcgcgccgcccgcgagactattgcaccatatttactcggc
+>seq 462 | Implanted String: gttgatat | Motif for Entire Set: gatcatat
+agtcatgggcttcggcaaggcgaggatcgaacttagttgatatagtgcggcgtaacgcgatagattcgttatgcatcatgcgtgattccatttggtgatc
+>seq 463 | Implanted String: gaacacat | Motif for Entire Set: gatcatat
+gtccgcagtgggaaagcgggatcgctaacggttcacttcgggtgattcaccaccactcctacgaacacattctattttgatctaataaaaatcgcgaggt
+>seq 464 | Implanted String: gatcattt | Motif for Entire Set: gatcatat
+acttccaataatgtgcataggggctaaagatcatttgttcgcgagcaacaattgtgatttgtcgcgtccatatcccgtaccgggatcaatagcggcgata
+>seq 465 | Implanted String: gatcagat | Motif for Entire Set: gatcatat
+cgcgatcagatcgctaatcctagatggacgcatcctgcagttttggtcaacatctcactacagctaacacagcttgtctgacgtcaccatttgttccacc
+>seq 466 | Implanted String: gtttatat | Motif for Entire Set: gatcatat
+gctcgagtcctaccgaagggggttcttagcttaaggagtcttctatgttccctatgtttatatgttaatagggcagtgctcgtctaatatcattacaaca
+>seq 467 | Implanted String: aatcatct | Motif for Entire Set: gatcatat
+cgtggagtatgcagtcgttacagaccatggctgccaaaggggagttgttggggtactctggtaacagaatcatcttgcgctggggatatgtaaatcagcc
+>seq 468 | Implanted String: gatcagct | Motif for Entire Set: gatcatat
+aaaatgaattgtgactcgcgcaggtcccagtcgccccatcacaataacaccatggatcagctacggcggttttttcagcgcccacccgaacaagggatta
+>seq 469 | Implanted String: catcatct | Motif for Entire Set: gatcatat
+cgtgtgtaataggaccccggacttacagcgaccacttcatcatctttatttggggacgatgattgctttcgaccttggatacttgctgaagggccgaacc
+>seq 470 | Implanted String: gagcatat | Motif for Entire Set: gatcatat
+gcttttttatgaggcctctaccagtctagagcatatattcactggatgaggggtgattatgttttgtcgctatccttgagcccttgcgaaagacgcagag
+>seq 471 | Implanted String: gatgctat | Motif for Entire Set: gatcatat
+ttgttggcataagctctagttgagcagcgctttctttcgggttagatgctatactcggaatacacatgtagcaaaagggggggaaagcactaagtataac
+>seq 472 | Implanted String: gatcagct | Motif for Entire Set: gatcatat
+ttatctcttttcggcgtcgttttatattcatcaccctagctcatgaggaggcgaagtacgggtaacctgttccccgatcagctcgctaaatagggttatc
+>seq 473 | Implanted String: tctcatat | Motif for Entire Set: gatcatat
+ctgacggttgtatcgaactacccgcctccggaaggattcagccacaggttgatagtctcatatgagggttcccacagattgctcctccctgtggcaccgt
+>seq 474 | Implanted String: gataatat | Motif for Entire Set: gatcatat
+ccatcattgctggtcaggatctatggtccatgttcgagcttcttcgtcagctagagctagctggataatatgttgatctcgatcgtctaattaatgcgtt
+>seq 475 | Implanted String: gatcatac | Motif for Entire Set: gatcatat
+tccgtttatacagctccggctgaagatccgatcatacgctcacaggtcttacaaggggctgtctctgtgcatattgcatgtacggacgtaatgcacaccg
+>seq 476 | Implanted String: gatcaatt | Motif for Entire Set: gatcatat
+gaccgtcgatcaacatgcaatcgcattaggaaataaggcgtggtgccttgtttgactccgccttgggatcaattgggcgttgttcgtcagtgtcgagata
+>seq 477 | Implanted String: gatcatac | Motif for Entire Set: gatcatat
+tcgactgatttagggaattgatacctagcaacacggcgtgccagactgccattgatcataccgtagctatttgagttagcacctgcttttttttgcgtcc
+>seq 478 | Implanted String: tctcatat | Motif for Entire Set: gatcatat
+cagcacttagaatgcatacttgctcggggataatttgagctctcatatctgaggagatgcgtccggtcctgattaacttcctctgtggatccattccgcc
+>seq 479 | Implanted String: tatcatat | Motif for Entire Set: gatcatat
+gaaagaagttcttgttttatacctaatggaagtacaccatatcatatatatttgttgcccgtggcgcagggtgcggccttcacaatctagggttccgcga
+>seq 480 | Implanted String: gatcttat | Motif for Entire Set: gatcatat
+caaagatgcaagtcggagagggagatatgattgtgcggtagtccaattgacgctccaggtgcagatcgagaagtcttttttttaggccaatggatcttat
+>seq 481 | Implanted String: ggtcatat | Motif for Entire Set: gatcatat
+tgggtcatatgccatggacctagctcttaatacgaagggggttaatagcaggataccttggagttgcgaaattgtttgtgtggctataatgcaggaaggg
+>seq 482 | Implanted String: gatcaaat | Motif for Entire Set: gatcatat
+gttggttgcacaattatatgtaatcccttccccatctttaaagtcacgtgatcaaattacggaatctcagagattagtagcttatatgcgcccaaaaaaa
+>seq 483 | Implanted String: gatcatgt | Motif for Entire Set: gatcatat
+tcctcgatcatgtatgtcggggaaactgccaactgtatgggtggggtccatagtgtcggacacagtaccggagcccactcgtggtggtccggtttctact
+>seq 484 | Implanted String: gatcgttt | Motif for Entire Set: gatcatat
+gaagcaaaggtgtgctggagccagatcgtttcgattcaggttttctggagctgggtgacgctccgagctcttatatcagcagggatcatccacgtcagga
+>seq 485 | Implanted String: gaacatat | Motif for Entire Set: gatcatat
+gagggtaaatcatgcagcatttttagagaacatatagtgtccaggcgtacaccattatttcctacccattaatagtgaggttaacgtcgtggaatagccc
+>seq 486 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+agaaagagagggaaaaggacgaagatgccgcactgtcgtcggtggtcactcgaaatcgggatcatataaactcgtcgagctccataagtggtgggatggg
+>seq 487 | Implanted String: gatcttat | Motif for Entire Set: gatcatat
+ctaaataaatcgtgcctaaggacgatcttatcttatcccgggggacgcatcacgcggtacgctttagatccgtacagaagatatctttgaccctgctctt
+>seq 488 | Implanted String: gatcttat | Motif for Entire Set: gatcatat
+attagagaacatctatagtaatacctacggaataccgatcttatcccgttttacacgatccggcatcgtcttcacagccgcttaatgttgtacatcacga
+>seq 489 | Implanted String: gagcctat | Motif for Entire Set: gatcatat
+cggggcccgtaatggaccgtacttgggatcgtggcatgctgacgttttcctcgcggcgtagaggtgctagtgagcctatcttggatccgagctgagttgc
+>seq 490 | Implanted String: gagcattt | Motif for Entire Set: gatcatat
+cgagcattttggggtcagactcttgacccatatccattcgtccaggaccactctatacgcccgatattaatgtcaaaggagttcctgggtttgtggtggt
+>seq 491 | Implanted String: gatcctgt | Motif for Entire Set: gatcatat
+ccaattttaacattctggggcgggggatcctgtatcccgttctaaggatcggtgaccatcttcacaccagaacgaccgccatcttaagtaagtgaatgat
+>seq 492 | Implanted String: gatcttat | Motif for Entire Set: gatcatat
+agccataacgtgagtaaggtcgacgagcgacttctgaggtacatgatcttatgccccaactcctacgaacgagtaccagtaggcatagcgtaagaatgcc
+>seq 493 | Implanted String: gttcatct | Motif for Entire Set: gatcatat
+ttcggaccgccgtagaccctcggcgtattttttaagttaagtgatggtcttggcgtgcttctacgggagccccggagtgtggtgacgccgttcatctatt
+>seq 494 | Implanted String: gataatat | Motif for Entire Set: gatcatat
+tcctctgctaaccagttgtggcctgtttgataatataaacgaggggcaccgagcgtaaccgcttgataccgtggaccgaaaccgcgattccgcgaattgt
+>seq 495 | Implanted String: gctcatgt | Motif for Entire Set: gatcatat
+ccggtcgttcgggacttgaagccactatgcaggactgaatcgaattcgagcgagtggccgaagcgcgacgctcatgtaccgcgggttctcacttctaggt
+>seq 496 | Implanted String: gaacatgt | Motif for Entire Set: gatcatat
+caggctgggcagggcgggtccagcagaatgaataaaccgtttgaacatgtgaggcgggctcagaagccgccccgtggattcgttgccgatttcccgcccg
+>seq 497 | Implanted String: gatcctat | Motif for Entire Set: gatcatat
+tgacctgtcgctctcgcggatcctattctttaaaatgagtcgagagggatccctagtcctcgaaaaagtctttctccagtatagacatctgggtttcaga
+>seq 498 | Implanted String: gatcatat | Motif for Entire Set: gatcatat
+cagtcccgattagagctaatatggatcatatgtataaccgcgaatgcgttgccgtccagatatcctgtgaaggtaagctgcctggggtcggcagtgacac
+>seq 499 | Implanted String: aatcctat | Motif for Entire Set: gatcatat
+tttttgcacgtgatcgatgtaaacagggacccacatagtctgccgactgttggcagactgcgtattgcgattccagggtaatcctatatgctaacaggtt
+>seq 500 | Implanted String: gatcatgt | Motif for Entire Set: gatcatat
+tgatccgctggctttcgactcatagagatcatgtcctagcttacggcgcgggggactttcactctgtcttagcttggctgcggaaggataggtatgggac

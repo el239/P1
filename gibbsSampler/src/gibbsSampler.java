@@ -24,14 +24,6 @@ public static int bestHammingDistance;
 
 public static void main(String args[]){
 	
-	   /* to test runtime
-	   long startTime = System.nanoTime();
-	   String testRunTime = (mostfrequent("variablestringlength",2));
-	   long endTime   = System.nanoTime();
-	   long totalTime = endTime - startTime;
-	   System.out.println(totalTime+ " nanoseconds");
-	   */
-	   
 	   // ("filename", k-mer length, number of sequences, number of cycles)
 	
 	   sampler("5by10.FASTA", 4, 5, 10000); // test case 1, no mutations from inputed atgt motif
@@ -42,7 +34,6 @@ public static void main(String args[]){
     	   System.out.println("success: implanted motif found");
        } // end if
        else System.out.println("failure: implanted motif not found");
-
        System.out.print("\n");
        
 	   sampler("5by10withmutations.FASTA", 4, 5, 10000); // test case 2 (from textbook example), mutations included in inputed motif
@@ -53,8 +44,39 @@ public static void main(String args[]){
     	   System.out.println("success: implanted motif found");
        } // end if
        else System.out.println("failure: implanted motif not found");
-
        System.out.print("\n");
+       
+	   sampler("5by10withmutations.FASTA", 3, 5, 10000); // // test case 3, same as previous but ensuring functionality of alternate k value 
+       if (bestConsensusMotif[0] == 'a' && 
+    	   bestConsensusMotif[1] == 't' &&
+    	   bestConsensusMotif[2] == 'g' &&
+    	   bestConsensusMotif[3] == 't'){
+    	   System.out.println("success: implanted motif found");
+       } // end if
+       else System.out.println("failure: implanted motif not found");
+       System.out.print("\n");
+       
+//	   long startTime = System.nanoTime();
+
+       sampler("500by100_gatcatat.FASTA", 8, 500, 10000);
+       System.out.print("\n");
+       
+       /*
+	   long endTime   = System.nanoTime();
+	   long totalTime = endTime - startTime;
+	   System.out.println(totalTime+ " nanoseconds");
+	   */
+       
+//	   long startTime2 = System.nanoTime();
+	   
+       sampler("50by1000_gatcatat.FASTA", 8, 50, 10000);
+       System.out.print("\n");
+       
+       /*
+	   long endTime2   = System.nanoTime();
+	   long totalTime2 = endTime2 - startTime2;
+	   System.out.println(totalTime2+ " nanoseconds");
+	   */
 } // end main
 
    public static void sampler(String DNA, int k, int t, int N) {
